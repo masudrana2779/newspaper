@@ -1,0 +1,142 @@
+.header {
+  background: $brand;
+  padding: 10px 0;
+  transition: all 0.5s;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: all 0.5s;
+
+  &.fixdHeader {
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar {
+    padding: 0;
+
+    .logo {
+      a {
+        img {
+          transition: all 0.5s;
+          max-width: 170px;
+          width: 100%;
+        }
+      }
+    }
+
+    .navbar-toggler {
+      padding: 0;
+      outline: none;
+      box-shadow: none;
+
+      .bar_icon {
+        width: 30px;
+        height: 16px;
+        position: relative;
+        display: inline-block;
+
+        .bar {
+          position: absolute;
+          width: 100%;
+          background: white;
+          height: 2px;
+          left: 0;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+
+          &.bar_1 {
+            top: 0;
+          }
+
+          &.bar_2 {
+            top: 50%;
+          }
+
+          &.bar_3 {
+            top: 100%;
+          }
+        }
+      }
+
+      &[aria-expanded="true"] {
+        .bar {
+          &.bar_1 {
+            top: 50%;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+
+          &.bar_2 {
+            opacity: 0;
+          }
+
+          &.bar_3 {
+            top: 50%;
+            -webkit-transform: rotate(-45deg) translateY(-50%);
+            -ms-transform: rotate(-45deg) translateY(-50%);
+            transform: rotate(-45deg) translateY(-50%);
+          }
+        }
+      }
+    }
+
+
+    .mainMenu {
+      .mainMenuList {
+        .nav-item {
+          .nav-link {
+            font-size: $f13;
+            text-transform: uppercase;
+            font-family: $mon;
+            color: $white;
+            font-weight: 500;
+
+            &.active {
+              color: $light_green_2;
+            }
+          }
+        }
+      }
+
+      .searchForm {
+        position: relative;
+
+        .form-control {
+          border: none;
+          margin: 0;
+          width: 100%;
+          padding-right: 30px;
+          background: transparent;
+          border: 1px solid #eee;
+          box-shadow: none;
+          color: $white;
+        }
+
+        .btn {
+          border: none;
+          box-shadow: none;
+          outline: none;
+          position: absolute;
+          right: 0;
+          top: 0;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+// responsive style
+
+
+@media (max-width: 767px) {
+  .header .navbar .mainMenu .mainMenuList {
+    margin-top: 15px;
+  }
+  .header .navbar .mainMenu .searchForm {
+    margin-bottom: 15px;
+  }
+}

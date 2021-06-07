@@ -1,0 +1,179 @@
+.bannerWrap {
+}
+
+.bannerSlider {
+
+
+  .owl-prev,
+  .owl-next {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      background: $brand;
+      color: $white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: all 0.5s;
+      opacity: 0.25;
+
+    }
+
+    &:hover {
+      &:before {
+        background: $light_green_2 !important;
+        color: #fff;
+        opacity: 1;
+      }
+    }
+
+
+    span {
+      display: none;
+    }
+
+    &.disabled {
+
+    }
+  }
+
+  .owl-prev {
+    left: 50px;
+
+    &:before {
+      content: "←";
+    }
+  }
+
+  .owl-next {
+    right: 50px;
+
+    &:before {
+      content: "→";
+    }
+
+    &.disabled {
+
+    }
+  }
+
+  .bannerSliderItem {
+    background: url("../../assets/img/banner/bannre_3.jpg") no-repeat scroll 0 0 / cover;
+    position: relative;
+    z-index: 1;
+
+    &:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, #000, transparent);
+      z-index: -1;
+    }
+
+    .SliderInner {
+
+    }
+  }
+
+  .active {
+    .bannerSliderItem {
+      .bannerContent {
+        .bannerTitle {
+          animation: fadeInDown 0.5s ease 0.5s both
+        }
+
+        .bannerPara {
+          animation: fadeInDown 0.6s ease 0.6s both
+        }
+
+        .btnWrap {
+          .btnGlob {
+            animation: fadeInDown 0.7s ease 0.7s both
+          }
+        }
+      }
+    }
+  }
+}
+
+.bannerContent {
+  padding: 150px 0;
+
+  .bannerTitle {
+    color: $white;
+    font-size: $f40;
+    line-height: 46px;
+    margin-bottom: 45px;
+    animation: fadeOutUp 1s both;
+  }
+
+  .bannerPara {
+    color: $white;
+    font-size: $f20;
+    margin-bottom: 70px;
+    animation: fadeOutUp 1s both;
+  }
+
+  .btnWrap {
+    .btnGlob {
+      animation: fadeOutUp 1s both;
+    }
+  }
+}
+
+
+// responsive style
+
+
+@media (max-width: 991px) {
+  .bannerContent {
+    padding: 70px 0;
+  }
+  .bannerContent .bannerPara {
+    margin-bottom: 40px;
+  }
+  .bannerContent .bannerTitle {
+    margin-bottom: 25px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .bannerContent {
+    padding: 50px 0;
+  }
+  .bannerContent .bannerTitle {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+  }
+
+  .bannerContent .bannerTitle br {
+    display: none;
+  }
+  .bannerContent .bannerPara br {
+    display: none;
+  }
+  .bannerContent .bannerPara {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}

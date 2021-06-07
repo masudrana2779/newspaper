@@ -1,0 +1,76 @@
+/*----------------------------------------------------
+@File: Default Styles
+
+/*=====================================================================
+@Template Name: News Portal
+@Author: Masud Rana
+@Developed By: Masud Rana
+@Developer URL: https://www.linkedin.com/in/masudrana2779/
+@Default Styles
+/*----------------------------------------------------*/
+
+/*Base font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* bootstrap */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+//font-awesome
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+
+
+//-----Color
+$white : #fff;
+$brand: #1f3159;
+$brand_dark: #080808;
+$brand_light: #0057a0;
+$dark: #121212;
+$dark_light: #555555;
+$light: #9CA6B4;
+$light_green_1: #00ac4e;
+$light_green_2: #00ac4e;
+$blue_color_1 : #3D73E8;
+$blue_color_2 : #293A8F;
+
+
+//---- font family ----	
+
+$mon: 'Montserrat', sans-serif;
+$robot: 'Roboto', sans-serif;
+$surjo: 'Shurjo', sans-serif;
+$arial: 'arial',sans-serif;
+
+
+
+
+
+//  fonts size
+$p : 16px;
+$f12: 12px;
+$f13: 13px;
+$f14: 14px;
+$f15: 15px;
+$f16: 16px;
+$f18: 18px;
+$f20: 20px;
+$f22: 22px;
+$f24: 24px;
+$f28: 28px;
+$f30: 30px;
+$f34: 34px;
+$f40: 40px;
+$f44: 44px;
+$f48: 48px;
+$f62: 62px;
+
+
+//----a style----	
+		
+$a-text-decuration:			none;
+$a-color:					inherit;
+
+//----a-hover style----	
+		
+$a-hover-color:				inherit;

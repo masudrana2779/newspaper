@@ -90,9 +90,9 @@ html {
   font-style: normal;
   src: url(https://assets.prothomalo.com/prothomalo/assets/ShurjoWeb_700_v2-ef9e058ccc3a98d85030.woff2) format("woff2"), url(https://assets.prothomalo.com/prothomalo/assets/ShurjoWeb_700_v2-72cba63e779d86520525.woff) format("woff"), url(https://assets.prothomalo.com/prothomalo/assets/ShurjoWeb_700_v2-7084d97ccd992205d87b.ttf) format("truetype"), url(https://assets.prothomalo.com/prothomalo/assets/ShurjoWeb_700_v2-6f30c4f7cce4d463f8e4.eot) format("embedded-opentype"); }
 
-.newsContent h3 {
+h3 {
   margin-bottom: 10px; }
-  .newsContent h3 a {
+  h3 a {
     color: #121212;
     font-size: 28px;
     font-weight: 600;
@@ -104,16 +104,18 @@ html {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical; }
 
-.newsContent h4 {
+h4 {
   margin-bottom: 10px; }
-  .newsContent h4 a {
+  h4 a {
     color: #121212;
     font-size: 20px;
     font-weight: 600; }
+    h4 a i {
+      color: #f4511e; }
 
-.newsContent p {
+p {
   margin-bottom: 10px; }
-  .newsContent p a {
+  p a {
     color: #555555;
     overflow: hidden;
     -o-text-overflow: ellipsis;

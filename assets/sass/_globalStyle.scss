@@ -12,6 +12,11 @@ body {
   color: $dark_light;
 }
 
+.openLeftSideMenu {
+  overflow: hidden;
+  padding-right: 17px;
+}
+
 h1,
 h2,
 h3,
@@ -407,4 +412,65 @@ p {
     }
   }
 
+}
+.leftSideMenuWrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1111;
+  background: #0004;
+  width: 100%;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  &.openLeftSideMenuWrap {
+    opacity: 1;
+    visibility: visible;
+    .leftMenuContent {
+      transform: translateX(0);
+    }
+  }
+  .leftMenuContent {
+    position: relative;
+    padding: 50px 0;
+    height: 100vh;
+    overflow-x: hidden;
+    min-width: 250px;
+    max-width: 250px;
+    background: #fff;
+    transition: all 0.3s;
+    transform: translateX(-100%);
+    .closeMenu {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 30px;
+      height: 30px;
+      background: #ccc;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    .leftMenuList {
+      padding: 20px;
+      margin: 0;
+      li {
+        border-bottom: 1px solid #ddd;
+        a {
+          color: $dark;
+          font-weight: 700;
+          font-size: $f18;
+          padding: 15px 10px;
+          transition: all 0.3s;
+          &:hover {
+            background: #eee;
+            padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
 }

@@ -59,6 +59,15 @@ $(function () {
         }
         scrollTop();
 
+        $('.openMenu').on('click', function (){
+            $('.leftSideMenuWrap').addClass('openLeftSideMenuWrap');
+            $('body').addClass('openLeftSideMenu');
+        });
+        $('.closeMenu, .leftSideMenuWrap').on('click', function (){
+            $('.leftSideMenuWrap').removeClass('openLeftSideMenuWrap');
+            $('body').removeClass('openLeftSideMenu');
+        });
+
 
     });
 });

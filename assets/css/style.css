@@ -27,6 +27,10 @@ body {
   letter-spacing: 0.5px;
   color: #555555; }
 
+.openLeftSideMenu {
+  overflow: hidden;
+  padding-right: 17px; }
+
 h1,
 h2,
 h3,
@@ -304,6 +308,75 @@ p {
       font-size: 20px;
       border-bottom: 2px solid #121212;
       font-weight: 700; }
+
+.leftSideMenuWrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1111;
+  background: #0004;
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden; }
+  .leftSideMenuWrap.openLeftSideMenuWrap {
+    opacity: 1;
+    visibility: visible; }
+    .leftSideMenuWrap.openLeftSideMenuWrap .leftMenuContent {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0); }
+  .leftSideMenuWrap .leftMenuContent {
+    position: relative;
+    padding: 50px 0;
+    height: 100vh;
+    overflow-x: hidden;
+    min-width: 250px;
+    max-width: 250px;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%); }
+    .leftSideMenuWrap .leftMenuContent .closeMenu {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 30px;
+      height: 30px;
+      background: #ccc;
+      border-radius: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      cursor: pointer;
+      font-weight: 700; }
+    .leftSideMenuWrap .leftMenuContent .leftMenuList {
+      padding: 20px;
+      margin: 0; }
+      .leftSideMenuWrap .leftMenuContent .leftMenuList li {
+        border-bottom: 1px solid #ddd; }
+        .leftSideMenuWrap .leftMenuContent .leftMenuList li a {
+          color: #121212;
+          font-weight: 700;
+          font-size: 18px;
+          padding: 15px 10px;
+          -webkit-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          transition: all 0.3s; }
+          .leftSideMenuWrap .leftMenuContent .leftMenuList li a:hover {
+            background: #eee;
+            padding-left: 15px; }
 
 .headerWrap {
   -webkit-transition: all 0.3s;

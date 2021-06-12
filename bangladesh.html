@@ -10,96 +10,111 @@
           href="./assets/img/favicon.png">
 </head>
 <body>
-
-<header class="header">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-2">
-                <div class="leftSide">
-                    <div class="barIcon">
-                        <i class="fa fa-bars"></i>
-                        <i class="fa fa-search"></i>
-                    </div>
-                    <p>সোমবার, ০৭ জুন ২০২১</p>
-                </div>
-            </div>
-            <div class="col-8">
-                <div class="logoWrap text-center">
-                    <img src="./assets/img/logo.png" alt="logo" >
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="rightSide">
-                    <div class="rightInner text-right">
-                        <div class="belIcon">
-                            <i class="fa fa-bell-o"></i>
-                            <a href="#" class="btn btn-success">Login</a>
+<header class="headerWrap" id="headerWrap">
+    <div class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <div class="leftSide">
+                        <div class="barIcon">
+                            <i class="fa fa-bars"></i>
+                            <i class="fa fa-search"></i>
                         </div>
-                        <div class="selectLang">
-                            সংস্করণ: <span>বাংলা <i class="fa fa-angle-down"></i> </span>
+                        <p>সোমবার, ০৭ জুন ২০২১</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="logoWrap text-center">
+                        <a href="index.html"><img src="./assets/img/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="rightSide">
+                        <div class="rightInner text-right">
+                            <div class="belIcon">
+                                <i class="fa fa-bell-o"></i>
+                                <a href="#" class="btn btn-success">Login</a>
+                            </div>
+                            <div class="selectLangMenu">
+                                সংস্করণ: <span>বাংলা <i class="fa fa-angle-down"></i> </span>
+
+                                <div class="selectLang">
+                                    <div class="selectLangItem">
+                                        <input type="radio" name="language" id="item11">
+                                        <label for="item11">বাংলা</label>
+                                    </div>
+                                    <div class="selectLangItem">
+                                        <input type="radio" name="language" id="item21">
+                                        <label for="item21">English</label>
+                                    </div>
+                                    <div class="selectLangItem">
+                                        <input type="radio" name="language" id="item31">
+                                        <label for="item31">উত্তর আমেরিকা</label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="mainMenuWrap border-top border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>-->
+                        <div class="collapse navbar-collapse mainMenu" id="mainMenu">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="latest.html">সর্বশেষ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="topic.html">বিশেষ সংবাদ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="politics.html">রাজনীতি</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="topic.html">করোনাভাইরাস</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bangladesh.html">বাংলাদেশ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">বিশ্ব</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">বাণিজ্য</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">মতামত</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">খেলা</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">বিনোদন</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">চাকরি</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">লাইফস্টাইল</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--mainMenuWrap-->
 </header>
 <!--header-->
-
-<div class="mainMenuWrap border-top border-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>-->
-                    <div class="collapse navbar-collapse mainMenu" id="mainMenu">
-                        <ul class="navbar-nav m-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./latest.html">সর্বশেষ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="topic.html">বিশেষ সংবাদ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">রাজনীতি</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">করোনাভাইরাস</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">বাংলাদেশ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">বিশ্ব</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">বাণিজ্য</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">মতামত</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">খেলা</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">বিনোদন</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">চাকরি</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">লাইফস্টাইল</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
-<!--mainMenuWrap-->
 
 
 <div class="newsItemWrap">

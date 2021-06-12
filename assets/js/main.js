@@ -6,22 +6,13 @@ $(function () {
 
         function menuOnScrollTop(){
             var prevScrollpos = window.pageYOffset;
-            $("body").css({
-                'margin-top': 0,
-            });
             window.onscroll = function() {
                 var headerOuterHeight = document.getElementById("headerWrap").offsetHeight;
                 var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
                     document.getElementById("headerWrap").style.top = "0";
-                    $("body").css({
-                        // 'margin-top': headerOuterHeight,
-                    });
                 } else {
                     document.getElementById("headerWrap").style.top = "-" + (headerOuterHeight - 60) +"px";
-                    $("body").css({
-                        // 'margin-top': headerOuterHeight,
-                    });
                 }
                 prevScrollpos = currentScrollPos;
 

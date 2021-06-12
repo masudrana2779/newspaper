@@ -316,7 +316,6 @@ p {
   z-index: 1100;
   background: #fff; }
   .headerWrap.headerFixed {
-    position: fixed;
     -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2); }
   .headerWrap .header {

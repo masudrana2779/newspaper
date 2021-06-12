@@ -246,6 +246,37 @@ p {
     font-weight: 600;
     color: #121212; }
 
+.leftSide .barIcon {
+  margin-bottom: 10px; }
+  .leftSide .barIcon i {
+    font-size: 24px;
+    padding-right: 20px;
+    cursor: pointer; }
+
+.rightSide .rightInner .belIcon {
+  margin-bottom: 10px; }
+  .rightSide .rightInner .belIcon i {
+    font-size: 24px;
+    padding-right: 20px;
+    position: relative;
+    cursor: pointer; }
+    .rightSide .rightInner .belIcon i:after {
+      width: 10px;
+      height: 9px;
+      background: red;
+      content: "";
+      top: 3px;
+      left: 12px;
+      position: absolute;
+      border-radius: 50%; }
+
+.header {
+  padding: 20px 0; }
+  .header .logoWrap img {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto; }
+
 .mainMenuWrap .navbar .mainMenu .navbar-nav .nav-item .nav-link {
   font-size: 16px;
   color: #121212;

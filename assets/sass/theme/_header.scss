@@ -1,3 +1,54 @@
+
+.leftSide {
+  .barIcon {
+    margin-bottom: 10px;
+
+    i {
+      font-size: 24px;
+      padding-right: 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+.rightSide {
+  .rightInner {
+    .belIcon {
+      margin-bottom: 10px;
+
+      i {
+        font-size: 24px;
+        padding-right: 20px;
+        position: relative;
+        cursor: pointer;
+
+        &:after {
+          width: 10px;
+          height: 9px;
+          background: red;
+          content: "";
+          top: 3px;
+          left: 12px;
+          position: absolute;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
+.header {
+  padding: 20px 0;
+
+  .logoWrap {
+    img  {
+      max-width: 200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
 .mainMenuWrap {
   .navbar {
     .mainMenu {
@@ -33,6 +84,7 @@
     min-width: max-content;
     visibility: hidden;
   }
+
   &:hover {
     .selectLang {
       opacity: 1;
@@ -40,3 +92,4 @@
     }
   }
 }
+

@@ -66,9 +66,6 @@ button:focus {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-html {
-  font-size: 62.5%; }
-
 @font-face {
   font-family: "Shurjo";
   font-display: swap;
@@ -94,6 +91,22 @@ html {
   .container {
     max-width: 1350px; } }
 
+.loadMore .btn {
+  color: #37acff;
+  padding: 10px 30px;
+  background: transparent;
+  border: 1px solid #37acff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .loadMore .btn:hover {
+    background: #37acff;
+    color: white; }
+
+h1 {
+  color: #1a237e;
+  font-size: 40px; }
+
 h3 {
   margin-bottom: 10px; }
   h3 a {
@@ -115,6 +128,15 @@ h4 {
     font-size: 20px;
     font-weight: 600; }
     h4 a i {
+      color: #f4511e; }
+
+h2 {
+  margin-bottom: 10px; }
+  h2 a {
+    color: #ccc;
+    font-size: 44px;
+    font-weight: 600; }
+    h2 a i {
       color: #f4511e; }
 
 p {
@@ -174,6 +196,29 @@ p {
   max-height: 44px;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical; }
+
+.tabContentBody .contentList {
+  padding: 2px 0;
+  border-bottom: 1px solid #eee; }
+  .tabContentBody .contentList:last-child {
+    border-bottom: none; }
+
+.nav-tabs.tabsMenu {
+  border-bottom: 1px solid #eee; }
+  .nav-tabs.tabsMenu .nav-item {
+    border: none;
+    margin: 0; }
+    .nav-tabs.tabsMenu .nav-item .nav-link {
+      border: none;
+      color: #121212;
+      padding: 0 0 10px;
+      margin-right: 20px;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: -2px;
+      border-bottom: 4px solid transparent; }
+      .nav-tabs.tabsMenu .nav-item .nav-link.active {
+        border-color: red; }
 
 .mainMenuWrap .navbar .mainMenu .navbar-nav .nav-item .nav-link {
   font-size: 16px;

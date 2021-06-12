@@ -305,6 +305,27 @@ p {
       border-bottom: 2px solid #121212;
       font-weight: 700; }
 
+.headerWrap {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1100;
+  background: #fff; }
+  .headerWrap.headerFixed {
+    position: fixed;
+    -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2); }
+  .headerWrap .header {
+    padding: 20px 0; }
+    .headerWrap .header .logoWrap img {
+      max-width: 200px;
+      width: 100%;
+      margin: 0 auto; }
+
 .leftSide .barIcon {
   margin-bottom: 10px; }
   .leftSide .barIcon i {
@@ -341,13 +362,6 @@ p {
     .rightSide .rightInner .belIcon .btn:hover {
       background: #37acff;
       color: white; }
-
-.header {
-  padding: 20px 0; }
-  .header .logoWrap img {
-    max-width: 200px;
-    width: 100%;
-    margin: 0 auto; }
 
 .mainMenuWrap .navbar .mainMenu .navbar-nav .nav-item .nav-link {
   font-size: 16px;

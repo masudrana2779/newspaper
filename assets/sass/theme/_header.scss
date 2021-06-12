@@ -1,4 +1,31 @@
 
+.headerWrap {
+  transition: all 0.3s;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1100;
+  background: #fff;
+
+  &.headerFixed {
+    position: fixed;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .20);
+  }
+
+  .header {
+    padding: 20px 0;
+
+    .logoWrap {
+      img {
+        max-width: 200px;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+
 .leftSide {
   .barIcon {
     margin-bottom: 10px;
@@ -52,17 +79,6 @@
   }
 }
 
-.header {
-  padding: 20px 0;
-
-  .logoWrap {
-    img {
-      max-width: 200px;
-      width: 100%;
-      margin: 0 auto;
-    }
-  }
-}
 
 .mainMenuWrap {
   .navbar {

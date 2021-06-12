@@ -14,3 +14,29 @@
     }
   }
 }
+
+.selectLangMenu {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+
+  .selectLang {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    text-align: left;
+    padding: 10px 10px 0;
+    background: #fff;
+    border: 1px solid #d0cece;
+    z-index: 1;
+    opacity: 0;
+    min-width: max-content;
+    visibility: hidden;
+  }
+  &:hover {
+    .selectLang {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

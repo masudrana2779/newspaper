@@ -95,6 +95,7 @@ button:focus {
     max-width: 1350px;
   }
 }
+
 .loadMore {
   .btn {
     color: #37acff;
@@ -102,12 +103,14 @@ button:focus {
     background: transparent;
     border: 1px solid #37acff;
     transition: all 0.3s;
+
     &:hover {
       background: #37acff;
       color: white;
     }
   }
 }
+
 h1 {
   color: #1a237e;
   font-size: $f40;
@@ -273,10 +276,45 @@ p {
         font-size: $f18;
         margin-bottom: -2px;
         border-bottom: 4px solid transparent;
+
         &.active {
           border-color: red;
         }
       }
+    }
+  }
+}
+
+.bradeComb {
+  li {
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    margin-right: 10px;
+    &:last-child {
+      &:before {
+        display: none;
+      }
+      a {
+        pointer-events: none;
+      }
+    }
+
+    &:before {
+      position: absolute;
+      content: "";
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #000;
+    }
+    a {
+      font-size: 16px;
+      font-weight: 600;
+      color: $dark;
     }
   }
 }

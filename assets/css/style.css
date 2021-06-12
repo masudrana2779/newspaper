@@ -89,7 +89,7 @@ button:focus {
 
 @media (min-width: 1440px) {
   .container {
-    max-width: 1350px; } }
+    max-width: 1250px; } }
 
 .loadMore .btn {
   color: #37acff;
@@ -246,6 +246,65 @@ p {
     font-weight: 600;
     color: #121212; }
 
+.newsMainContent {
+  width: 100%; }
+  .newsMainContent .contentInner .details p {
+    margin-bottom: 20px; }
+  .newsMainContent .contentInner .details img {
+    margin-bottom: 15px;
+    width: 100%; }
+
+.newsDetailsWrap {
+  padding: 20px 0; }
+
+.newsDetailsContent .tagName {
+  margin-bottom: 20px; }
+  .newsDetailsContent .tagName a {
+    color: #121212;
+    font-size: 20px;
+    border-bottom: 2px solid #121212;
+    font-weight: 700; }
+    .newsDetailsContent .tagName a:hover {
+      color: red; }
+
+.newsDetailsContent .newsTitle {
+  color: #121212;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 35px; }
+
+.newsDetailsContent .contributor h4 {
+  color: #121212;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative; }
+  .newsDetailsContent .contributor h4:before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    left: 0;
+    width: 30px;
+    height: 5px;
+    background: #e2e2e2; }
+
+.newsDetailsContent .publishDate {
+  color: #9e9e9e;
+  font-size: 14px; }
+
+.newsDetailsRight {
+  margin-top: 900px;
+  top: 0;
+  padding: 30px 0;
+  position: -webkit-sticky;
+  position: sticky; }
+  .newsDetailsRight h5 {
+    margin-bottom: 15px; }
+    .newsDetailsRight h5 b {
+      color: #121212;
+      font-size: 20px;
+      border-bottom: 2px solid #121212;
+      font-weight: 700; }
+
 .leftSide .barIcon {
   margin-bottom: 10px; }
   .leftSide .barIcon i {
@@ -269,6 +328,19 @@ p {
       left: 12px;
       position: absolute;
       border-radius: 50%; }
+  .rightSide .rightInner .belIcon .btn {
+    color: #37acff;
+    padding: 6px 20px;
+    background: transparent;
+    border: 1px solid #37acff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 16px;
+    font-weight: 600; }
+    .rightSide .rightInner .belIcon .btn:hover {
+      background: #37acff;
+      color: white; }
 
 .header {
   padding: 20px 0; }

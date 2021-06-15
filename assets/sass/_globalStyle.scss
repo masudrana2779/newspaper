@@ -14,7 +14,7 @@ body {
 
 .openLeftSideMenu {
   overflow: hidden;
-  padding-right: 17px;
+  padding-left: 17px;
 }
 
 h1,
@@ -193,6 +193,7 @@ p {
 
   a {
     display: block;
+    position: relative;
   }
 
   img {
@@ -327,6 +328,13 @@ p {
   }
 }
 
+.newsContent {
+  .contentInner {
+    display: block;
+    position: relative;
+  }
+}
+
 .newsMainContent {
   //max-width: 700px;
   width: 100%;
@@ -359,6 +367,7 @@ p {
       font-size: $f20;
       border-bottom: 2px solid $dark;
       font-weight: 700;
+
       &:hover {
         color: red;
       }
@@ -402,8 +411,10 @@ p {
   top: 0;
   padding: 70px 0;
   position: sticky;
+
   h5 {
     margin-bottom: 15px;
+
     b {
       color: $dark;
       font-size: $f20;
@@ -413,6 +424,7 @@ p {
   }
 
 }
+
 .leftSideMenuWrap {
   position: fixed;
   left: 0;
@@ -423,13 +435,16 @@ p {
   transition: all 0.3s;
   opacity: 0;
   visibility: hidden;
+
   &.openLeftSideMenuWrap {
     opacity: 1;
     visibility: visible;
+
     .leftMenuContent {
       transform: translateX(0);
     }
   }
+
   .leftMenuContent {
     position: relative;
     padding: 50px 0;
@@ -440,6 +455,7 @@ p {
     background: #fff;
     transition: all 0.3s;
     transform: translateX(-100%);
+
     .closeMenu {
       position: absolute;
       top: 20px;
@@ -454,20 +470,114 @@ p {
       cursor: pointer;
       font-weight: 700;
     }
+
     .leftMenuList {
       padding: 20px;
       margin: 0;
+
       li {
         border-bottom: 1px solid #ddd;
+
         a {
           color: $dark;
           font-weight: 700;
           font-size: $f18;
           padding: 15px 10px;
           transition: all 0.3s;
+
           &:hover {
             background: #eee;
             padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.darkBg {
+  background: #222;
+  padding: 10px 0;
+
+  h4 {
+    a {
+      color: $white;
+    }
+  }
+
+  p {
+    color: #eee;
+    a {
+      color: $white;
+    }
+  }
+  hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .border-left {
+    border-left: 1px solid rgba(255, 255, 255, 0.2) !important;
+  }
+
+
+}
+.playIcon {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   width: 30px;
+   height: 30px;
+   font-size: 12px;
+   z-index: 1;
+   background: #8a8a8a;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   border-radius: 50%;
+   //padding-left: 5px;
+ }
+
+
+.videoModal {
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  &.show {
+    &:before {
+      opacity: 0.5;
+    }
+  }
+  .modal-dialog {
+    max-width: 650px;
+    .modal-content {
+      .modal-body {
+        .close {
+          position: absolute;
+          top: -10px;
+          right: -10px;
+          width: 30px;
+          height: 30px;
+          background: #fff;
+          border-radius: 50%;
+          opacity: 1;
+          transition: all 0.3s;
+        }
+        .youtubeVideo {
+          .videoInner {
+            height: 400px;
+            iframe {
+              width: 100%;
+              height: 100%;
+            }
           }
         }
       }

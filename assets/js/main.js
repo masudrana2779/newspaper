@@ -69,5 +69,24 @@ $(function () {
         });
 
 
+        function popupGallery() {
+            if ($(".img_popup").length) {
+                $(".img_popup").each(function () {
+                    $(".img_popup").magnificPopup({
+                        type: 'image',
+                        tLoading: 'Loading image #%curr%...',
+                        removalDelay: 300,
+                        mainClass: 'mfp-with-zoom mfp-img-mobile',
+                        gallery: {
+                            enabled: true,
+                            navigateByImgClick: true,
+                            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image,
+                        }
+                    });
+                });
+            }
+        }
+        popupGallery();
+
     });
 });

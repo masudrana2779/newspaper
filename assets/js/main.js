@@ -4,15 +4,15 @@ $(function () {
 
     $(document).ready(function () {
 
-        function menuOnScrollTop(){
+        function menuOnScrollTop() {
             var prevScrollpos = window.pageYOffset;
-            window.onscroll = function() {
+            window.onscroll = function () {
                 var headerOuterHeight = document.getElementById("headerWrap").offsetHeight;
                 var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
                     document.getElementById("headerWrap").style.top = "0";
                 } else {
-                    document.getElementById("headerWrap").style.top = "-" + (headerOuterHeight - 60) +"px";
+                    document.getElementById("headerWrap").style.top = "-" + (headerOuterHeight - 60) + "px";
                 }
                 prevScrollpos = currentScrollPos;
 
@@ -24,6 +24,7 @@ $(function () {
                 }
             }
         }
+
         menuOnScrollTop();
 
         setTimeout(function () {
@@ -57,13 +58,14 @@ $(function () {
                 // scroll body to 0px on click
             });
         }
+
         scrollTop();
 
-        $('.openMenu').on('click', function (){
+        $('.openMenu').on('click', function () {
             $('.leftSideMenuWrap').addClass('openLeftSideMenuWrap');
             $('body').addClass('openLeftSideMenu');
         });
-        $('.closeMenu, .leftSideMenuWrap').on('click', function (){
+        $('.closeMenu, .leftSideMenuWrap').on('click', function () {
             $('.leftSideMenuWrap').removeClass('openLeftSideMenuWrap');
             $('body').removeClass('openLeftSideMenu');
         });
@@ -86,7 +88,36 @@ $(function () {
                 });
             }
         }
+
         popupGallery();
+
+
+        function onlineVoteSlider() {
+            $('.onlineVoteSlider').owlCarousel({
+                loop: true,
+                margin: 10, center: true,
+                autoWidth: true,
+                responsiveClass: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 1,
+                        nav: false
+                    },
+                    1000: {
+                        items: 1,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            })
+        }
+
+        onlineVoteSlider();
 
     });
 });

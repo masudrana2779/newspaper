@@ -458,6 +458,74 @@ p {
       width: 100%;
       height: 100%; }
 
+.onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-prev,
+.onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #4785ff;
+  color: #fff;
+  font-size: 26px;
+  opacity: 0.8; }
+  .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-prev.disabled,
+  .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-next.disabled {
+    display: none; }
+  .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-prev span,
+  .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-next span {
+    display: none; }
+  .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-prev:before,
+  .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-next:before {
+    position: absolute;
+    font-family: fontawesome; }
+
+.onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-prev {
+  left: 0; }
+  .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-prev:before {
+    content: "\f104";
+    padding-right: 3px; }
+
+.onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-next {
+  right: 0; }
+  .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-next:before {
+    content: "\f105";
+    padding-left: 3px; }
+
+.onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-dots {
+  text-align: center; }
+  .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 5px; }
+    .onlineVoteWrap .onlineVoteInner .onlineVoteSlider .owl-dots .owl-dot.active {
+      background: #0099ff; }
+
+.onlineVoteSliderItem {
+  max-width: 280px;
+  width: 100%; }
+
+.onlineVoteSliderInner {
+  border: 1px solid #e8ecf0;
+  background: #fff; }
+  .onlineVoteSliderInner .sliderImg {
+    margin-bottom: 20px; }
+  .onlineVoteSliderInner .sliderContent {
+    padding: .6rem .8rem 1rem;
+    margin-bottom: 15px; }
+
 .voteWrap .voteItem {
   position: relative;
   min-height: 1.5rem;
@@ -466,6 +534,16 @@ p {
   overflow: hidden;
   background: #f9f9f9;
   border-radius: 8px; }
+  .voteWrap .voteItem .bg {
+    background: #e7edfa;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; }
+  .voteWrap .voteItem .right {
+    position: absolute;
+    right: 10px;
+    font-size: 13px; }
   .voteWrap .voteItem input[type="radio"] {
     display: none; }
     .voteWrap .voteItem input[type="radio"]:checked + label {
@@ -491,17 +569,56 @@ p {
       border: 1px solid #5ec3ec;
       border-radius: 50%; }
 
-git
+.voteWrap .voteItemBtn {
+  padding-top: 20px; }
+  .voteWrap .voteItemBtn .btnVote {
+    background: #0165a7;
+    border-color: #0165a7;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .voteWrap .voteItemBtn .btnVote:hover {
+      opacity: 0.8; }
+
 .shareBtnWrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
-  git
-.shareBtnWrap .btn svg {
-    width: 15px; }
+  justify-content: space-between;
+  background: #ebf3f7;
+  padding: 20px; }
+  .shareBtnWrap .btn {
+    background: #5ec3ec;
+    border: 1px solid #5ec3ec;
+    padding: 8px 15px;
+    border-radius: 50px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .shareBtnWrap .btn svg {
+      margin-right: 8px;
+      margin-top: -3px;
+      width: 15px;
+      fill: #fff; }
+    .shareBtnWrap .btn.btnEmbed {
+      background: #ebf3f7;
+      color: #5ec3ec; }
+      .shareBtnWrap .btn.btnEmbed svg {
+        fill: #5ec3ec;
+        width: 20px; }
 
 .headerWrap {
   -webkit-transition: all 0.3s;

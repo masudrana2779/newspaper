@@ -1000,7 +1000,7 @@
             <div class="col-md-4 col-sm-4 col-12 mt-4 mb-4 border-left">
                 <div class="onlineVoteWrap">
                     <div class="onlineVoteInner">
-                        <div class="onlineVoteSlider">
+                        <div class="onlineVoteSlider owl-carousel">
                             <div class="onlineVoteSliderItem">
                                 <div class="onlineVoteSliderInner">
                                     <div class="sliderImg">
@@ -1013,16 +1013,160 @@
                                         <div class="voteWrap">
                                             <form>
                                                 <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
                                                     <input type="radio" id="yes" name="opinion">
-                                                    <label for="yes" class="voteSingleItem">হ্যাঁ</label>
+                                                    <label for="yes" class="voteSingleItem">হ্যাঁ <span class="right">30%</span> </label>
                                                 </div>
                                                 <div class="voteItem">
                                                     <input type="radio" id="no" name="opinion">
-                                                    <label for="no" class="voteSingleItem">না</label>
+                                                    <div class="bg" style="width: 60%"></div>
+                                                    <label for="no" class="voteSingleItem">না  <span class="right">60%</span>  </label>
                                                 </div>
                                                 <div class="voteItem">
                                                     <input type="radio" id="noOpinion" name="opinion">
-                                                    <label for="noOpinion" class="voteSingleItem">মন্তব্য নেই</label>
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <label for="noOpinion" class="voteSingleItem">মন্তব্য নেই  <span class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItemBtn text-right">
+                                                    <button class="btn btnVote">Vote</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="shareBtnWrap">
+                                        <button class="btn btnShare">
+                                            <svg viewBox="0 0 72 72" id="share"><title>share</title>
+                                                <path d="M53.84 62.738c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.897 2.215 4.897 4.948c0 2.733-2.192 4.948-4.897 4.948M15.272 40.006c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.9 2.215 4.9 4.948c0 2.733-2.195 4.948-4.9 4.948M53.84 7.91c2.705 0 4.897 2.215 4.897 4.948 0 2.733-2.192 4.949-4.897 4.949s-4.897-2.216-4.897-4.949c0-2.733 2.192-4.948 4.897-4.948m-.06 40.407c-2.42 0-4.588.968-6.243 2.482l-22.713-13.36c.16-.741.288-1.478.288-2.252 0-.773-.128-1.514-.288-2.254l22.457-13.228c1.719 1.608 3.982 2.608 6.499 2.608 5.285 0 9.555-4.312 9.555-9.656S59.065 3 53.78 3c-5.289 0-9.556 4.312-9.556 9.656 0 .773.124 1.514.285 2.251l-22.457 13.23c-1.72-1.61-3.98-2.607-6.495-2.607-5.289 0-9.556 4.312-9.556 9.656s4.267 9.656 9.556 9.656c2.516 0 4.776-.996 6.495-2.607l22.68 13.389a9.126 9.126 0 0 0-.252 2.093c0 5.182 4.171 9.397 9.3 9.397 5.128 0 9.299-4.215 9.299-9.397s-4.171-9.4-9.3-9.4"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                            share
+                                        </button>
+                                        <button class="btn btnEmbed">
+                                            <svg viewBox="0 0 72 72" id="embed2"><title>embed2</title><g transform="translate(4 10)" fill-rule="evenodd"><path d="M37.37 0L22 50.992 26.625 53 42 2.01zM0 24.002L16.462 42 20 37.944 7.252 24.002 20 10.058 16.462 6zM44 10.058l12.748 13.94L44 37.943 47.535 42 64 23.999 47.535 6z"></path></g></svg>
+                                            Embed
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="onlineVoteSliderItem">
+                                <div class="onlineVoteSliderInner">
+                                    <div class="sliderImg">
+                                        <img src="./assets/img/vote/vote.jpg" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>স্বশাসিত সংস্থাগুলোর উদ্বৃত্ত অর্থ রাষ্ট্রীয় কোষাগারে জমা নেওয়ার সিদ্ধান্তের
+                                            সঙ্গে আপনি কি একমত?
+                                        </p>
+                                        <div class="voteWrap">
+                                            <form>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="yes" name="opinion">
+                                                    <label for="yes" class="voteSingleItem">হ্যাঁ <span class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <input type="radio" id="no" name="opinion">
+                                                    <div class="bg" style="width: 60%"></div>
+                                                    <label for="no" class="voteSingleItem">না  <span class="right">60%</span>  </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <input type="radio" id="noOpinion" name="opinion">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <label for="noOpinion" class="voteSingleItem">মন্তব্য নেই  <span class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItemBtn text-right">
+                                                    <button class="btn btnVote">Vote</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="shareBtnWrap">
+                                        <button class="btn btnShare">
+                                            <svg viewBox="0 0 72 72" id="share"><title>share</title>
+                                                <path d="M53.84 62.738c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.897 2.215 4.897 4.948c0 2.733-2.192 4.948-4.897 4.948M15.272 40.006c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.9 2.215 4.9 4.948c0 2.733-2.195 4.948-4.9 4.948M53.84 7.91c2.705 0 4.897 2.215 4.897 4.948 0 2.733-2.192 4.949-4.897 4.949s-4.897-2.216-4.897-4.949c0-2.733 2.192-4.948 4.897-4.948m-.06 40.407c-2.42 0-4.588.968-6.243 2.482l-22.713-13.36c.16-.741.288-1.478.288-2.252 0-.773-.128-1.514-.288-2.254l22.457-13.228c1.719 1.608 3.982 2.608 6.499 2.608 5.285 0 9.555-4.312 9.555-9.656S59.065 3 53.78 3c-5.289 0-9.556 4.312-9.556 9.656 0 .773.124 1.514.285 2.251l-22.457 13.23c-1.72-1.61-3.98-2.607-6.495-2.607-5.289 0-9.556 4.312-9.556 9.656s4.267 9.656 9.556 9.656c2.516 0 4.776-.996 6.495-2.607l22.68 13.389a9.126 9.126 0 0 0-.252 2.093c0 5.182 4.171 9.397 9.3 9.397 5.128 0 9.299-4.215 9.299-9.397s-4.171-9.4-9.3-9.4"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                            share
+                                        </button>
+                                        <button class="btn btnEmbed">
+                                            <svg viewBox="0 0 72 72" id="embed2"><title>embed2</title><g transform="translate(4 10)" fill-rule="evenodd"><path d="M37.37 0L22 50.992 26.625 53 42 2.01zM0 24.002L16.462 42 20 37.944 7.252 24.002 20 10.058 16.462 6zM44 10.058l12.748 13.94L44 37.943 47.535 42 64 23.999 47.535 6z"></path></g></svg>
+                                            Embed
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="onlineVoteSliderItem">
+                                <div class="onlineVoteSliderInner">
+                                    <div class="sliderImg">
+                                        <img src="./assets/img/vote/vote.jpg" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>স্বশাসিত সংস্থাগুলোর উদ্বৃত্ত অর্থ রাষ্ট্রীয় কোষাগারে জমা নেওয়ার সিদ্ধান্তের
+                                            সঙ্গে আপনি কি একমত?
+                                        </p>
+                                        <div class="voteWrap">
+                                            <form>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="yes" name="opinion">
+                                                    <label for="yes" class="voteSingleItem">হ্যাঁ <span class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <input type="radio" id="no" name="opinion">
+                                                    <div class="bg" style="width: 60%"></div>
+                                                    <label for="no" class="voteSingleItem">না  <span class="right">60%</span>  </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <input type="radio" id="noOpinion" name="opinion">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <label for="noOpinion" class="voteSingleItem">মন্তব্য নেই  <span class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItemBtn text-right">
+                                                    <button class="btn btnVote">Vote</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="shareBtnWrap">
+                                        <button class="btn btnShare">
+                                            <svg viewBox="0 0 72 72" id="share"><title>share</title>
+                                                <path d="M53.84 62.738c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.897 2.215 4.897 4.948c0 2.733-2.192 4.948-4.897 4.948M15.272 40.006c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.9 2.215 4.9 4.948c0 2.733-2.195 4.948-4.9 4.948M53.84 7.91c2.705 0 4.897 2.215 4.897 4.948 0 2.733-2.192 4.949-4.897 4.949s-4.897-2.216-4.897-4.949c0-2.733 2.192-4.948 4.897-4.948m-.06 40.407c-2.42 0-4.588.968-6.243 2.482l-22.713-13.36c.16-.741.288-1.478.288-2.252 0-.773-.128-1.514-.288-2.254l22.457-13.228c1.719 1.608 3.982 2.608 6.499 2.608 5.285 0 9.555-4.312 9.555-9.656S59.065 3 53.78 3c-5.289 0-9.556 4.312-9.556 9.656 0 .773.124 1.514.285 2.251l-22.457 13.23c-1.72-1.61-3.98-2.607-6.495-2.607-5.289 0-9.556 4.312-9.556 9.656s4.267 9.656 9.556 9.656c2.516 0 4.776-.996 6.495-2.607l22.68 13.389a9.126 9.126 0 0 0-.252 2.093c0 5.182 4.171 9.397 9.3 9.397 5.128 0 9.299-4.215 9.299-9.397s-4.171-9.4-9.3-9.4"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                            share
+                                        </button>
+                                        <button class="btn btnEmbed">
+                                            <svg viewBox="0 0 72 72" id="embed2"><title>embed2</title><g transform="translate(4 10)" fill-rule="evenodd"><path d="M37.37 0L22 50.992 26.625 53 42 2.01zM0 24.002L16.462 42 20 37.944 7.252 24.002 20 10.058 16.462 6zM44 10.058l12.748 13.94L44 37.943 47.535 42 64 23.999 47.535 6z"></path></g></svg>
+                                            Embed
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="onlineVoteSliderItem">
+                                <div class="onlineVoteSliderInner">
+                                    <div class="sliderImg">
+                                        <img src="./assets/img/vote/vote.jpg" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>স্বশাসিত সংস্থাগুলোর উদ্বৃত্ত অর্থ রাষ্ট্রীয় কোষাগারে জমা নেওয়ার সিদ্ধান্তের
+                                            সঙ্গে আপনি কি একমত?
+                                        </p>
+                                        <div class="voteWrap">
+                                            <form>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="yes" name="opinion">
+                                                    <label for="yes" class="voteSingleItem">হ্যাঁ <span class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <input type="radio" id="no" name="opinion">
+                                                    <div class="bg" style="width: 60%"></div>
+                                                    <label for="no" class="voteSingleItem">না  <span class="right">60%</span>  </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <input type="radio" id="noOpinion" name="opinion">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <label for="noOpinion" class="voteSingleItem">মন্তব্য নেই  <span class="right">30%</span> </label>
                                                 </div>
                                                 <div class="voteItemBtn text-right">
                                                     <button class="btn btnVote">Vote</button>

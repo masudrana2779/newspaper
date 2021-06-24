@@ -1,0 +1,19 @@
+
+
+@media (max-width: 767px) {
+  .leftSide .barIcon .fa.fa-search {
+    display: none;
+  }
+  .leftSide p {
+    display: none;
+  }
+  .rightSide .rightInner .belIcon .btn {
+    display: none;
+  }
+  .selectLangMenu {
+    display: none;
+  }
+  .headerWrap .header .logoWrap img {
+    max-width: 100px;
+  }
+}

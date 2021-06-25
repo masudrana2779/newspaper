@@ -42,22 +42,35 @@
   .rightInner {
     .belIcon {
       margin-bottom: 10px;
+      //display: flex;
+      justify-contsent: end;
 
       i {
         font-size: 24px;
-        padding-right: 20px;
         position: relative;
         cursor: pointer;
+        &.fa-bell-o {
+          &:after {
+            width: 10px;
+            height: 9px;
+            background: red;
+            content: "";
+            top: 3px;
+            left: 12px;
+            position: absolute;
+            border-radius: 50%;
+          }
+        }
 
-        &:after {
-          width: 10px;
-          height: 9px;
-          background: red;
-          content: "";
-          top: 3px;
-          left: 12px;
-          position: absolute;
-          border-radius: 50%;
+      }
+      .bell {
+        i {
+          padding-right: 20px;
+        }
+      }
+      .user {
+        i {
+          padding-right: 0;
         }
       }
 
@@ -124,3 +137,9 @@
   }
 }
 
+.mbShow {
+  display: none;
+  @media (max-width: 767px) {
+    display: inline-block;
+  }
+}

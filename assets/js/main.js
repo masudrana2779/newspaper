@@ -4,20 +4,26 @@ $(function () {
 
     $(document).ready(function () {
 
+        var mainMenuWrapHeight = $('.mainMenuWrap').height() + 2;
+        var wW = $('body').width();
+        console.log(wW, 'wW')
+
         function menuOnScrollTop() {
             var prevScrollpos = window.pageYOffset;
             window.onscroll = function () {
                 var headerOuterHeight = document.getElementById("headerWrap").offsetHeight;
-                var currentScrollPos = window.pageYOffset;
-                if (prevScrollpos > currentScrollPos) {
-                    document.getElementById("headerWrap").style.top = "0";
-                } else {
-                    document.getElementById("headerWrap").style.top = "-" + (headerOuterHeight - 60) + "px";
+                if (wW > 767) {
+                    var currentScrollPos = window.pageYOffset;
+                    if (prevScrollpos > currentScrollPos) {
+                        document.getElementById("headerWrap").style.top = "0";
+                    } else {
+                        document.getElementById("headerWrap").style.top = "-" + (headerOuterHeight - mainMenuWrapHeight) + "px";
+                    }
+                    prevScrollpos = currentScrollPos;
                 }
-                prevScrollpos = currentScrollPos;
 
                 var windowTop = $(window).scrollTop();
-                if (windowTop > (headerOuterHeight - 60)) {
+                if (windowTop > (headerOuterHeight - mainMenuWrapHeight)) {
                     $(".headerWrap").addClass("headerFixed");
                 } else {
                     $(".headerWrap").removeClass("headerFixed");
@@ -42,20 +48,6 @@ $(function () {
                         scrollTop: $('body').offset().top
                     }, 2000);
                 }
-            });
-
-            // hide #go-top first
-            $("#go-top").hide();
-            // fade in #go-topp
-            $(function () {
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 100) {
-                        $('#go-top').fadeIn();
-                    } else {
-                        $('#go-top').fadeOut();
-                    }
-                });
-                // scroll body to 0px on click
             });
         }
 

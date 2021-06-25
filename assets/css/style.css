@@ -162,7 +162,8 @@ p {
 .newsImg {
   margin-right: 15px; }
   .newsImg img {
-    width: 112px; }
+    width: 100%;
+    max-width: 112px; }
 
 .newsLargeImg {
   position: relative; }
@@ -648,13 +649,13 @@ p {
     cursor: pointer; }
 
 .rightSide .rightInner .belIcon {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  justify-contsent: end; }
   .rightSide .rightInner .belIcon i {
     font-size: 24px;
-    padding-right: 20px;
     position: relative;
     cursor: pointer; }
-    .rightSide .rightInner .belIcon i:after {
+    .rightSide .rightInner .belIcon i.fa-bell-o:after {
       width: 10px;
       height: 9px;
       background: red;
@@ -663,6 +664,10 @@ p {
       left: 12px;
       position: absolute;
       border-radius: 50%; }
+  .rightSide .rightInner .belIcon .bell i {
+    padding-right: 20px; }
+  .rightSide .rightInner .belIcon .user i {
+    padding-right: 0; }
   .rightSide .rightInner .belIcon .btn {
     color: #37acff;
     padding: 6px 20px;
@@ -704,6 +709,12 @@ p {
   .selectLangMenu:hover .selectLang {
     opacity: 1;
     visibility: visible; }
+
+.mbShow {
+  display: none; }
+  @media (max-width: 767px) {
+    .mbShow {
+      display: inline-block; } }
 
 .socialLink li a {
   font-size: 18px;
@@ -769,6 +780,24 @@ p {
     left: 0;
     top: 3px; }
 
+@media (max-width: 991px) {
+  .newsContent .contentInner .d-flex {
+    display: block !important; }
+  .newsContent .contentInner .newsImg {
+    margin: 0 0 20px; }
+  .newsContent .contentInner .newsImg a {
+    width: 100%; }
+  .newsContent .contentInner .newsImg img {
+    max-width: 100%; }
+  .newsContent.overImg .newsInfo {
+    color: #555555;
+    position: static;
+    padding: 0; }
+  .newsContent.overImg .newsInfo h4 a {
+    color: #121212; }
+  .newsContent.overImg .newsInfo p a {
+    color: #121212; } }
+
 @media (max-width: 767px) {
   .leftSide .barIcon .fa.fa-search {
     display: none; }
@@ -779,6 +808,16 @@ p {
   .selectLangMenu {
     display: none; }
   .headerWrap .header .logoWrap img {
-    max-width: 100px; } }
+    max-width: 100px; }
+  .rightSide .rightInner .belIcon {
+    margin: 0; }
+  .leftSide .barIcon {
+    margin: 0; }
+  .headerWrap .header {
+    padding: 10px 0; }
+  .headerWrap .mainMenuWrap {
+    display: none; }
+  .newsImgL {
+    margin: 0 0 20px !important; } }
 
 /*==========================================================*/

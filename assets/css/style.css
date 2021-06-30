@@ -649,6 +649,13 @@ p {
 .ourNewsForm .form-group button.form-control {
   color: #fff; }
 
+.opinionBody {
+  border: 1px solid #ddd;
+  padding: 35px; }
+  .opinionBody h4.opinionTop a {
+    color: #34b8b5;
+    font-size: 18px; }
+
 .headerWrap {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;

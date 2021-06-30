@@ -851,3 +851,12 @@ p {
     }
   }
 }
+
+.opinionBody {
+  border: 1px solid #ddd;
+  padding: 35px;
+  h4.opinionTop a {
+    color: #34b8b5;
+    font-size: 18px;
+  }
+}

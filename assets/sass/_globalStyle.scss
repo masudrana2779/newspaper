@@ -219,6 +219,7 @@ p {
 
   img {
     width: 100%;
+    transition: all 0.5s;
   }
 }
 
@@ -844,6 +845,7 @@ p {
       padding: 12px;
       height: auto !important;
     }
+
     button {
       &.form-control {
         color: $white;
@@ -851,17 +853,22 @@ p {
     }
   }
 }
-
+.opinionWrap {
+  padding-left: 100px;
+}
 .opinionBody {
   border: 1px solid #ddd;
   padding: 35px;
-  h4.opinionTop a {
+}
+
+.opinionTop {
+  a {
     color: #34b8b5;
     font-size: 18px;
   }
 }
 
-h2.opinionTitle {
+.opinionTitle {
   width: 90%;
   position: relative;
   left: -45px;
@@ -873,7 +880,7 @@ h2.opinionTitle {
   line-height: 1.3;
 }
 
-h2.opinionTitle a {
+.opinionTitle a {
   display: inline;
   background-color: red;
   line-height: 45px;
@@ -881,4 +888,115 @@ h2.opinionTitle a {
   font-size: 33px;
   box-shadow: 10px 0 0 #ff0000, -10px 0 0 #ff0000;
   color: #fff;
+}
+
+
+.opinionPara {
+  margin: 30px 0;
+
+  a {
+    font-size: 20px;
+    color: $dark;
+  }
+}
+
+.authorWrap {
+  .authorInner {
+    display: flex;
+
+    .authorImg {
+      img {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        margin-right: 20px;
+      }
+    }
+
+    .authorInfo {
+      .authorTitle {
+        a {
+
+        }
+      }
+
+      .authorName {
+        position: relative;
+        padding-top: 10px;
+
+        &:before {
+          position: absolute;
+          content: "";
+          top: 0;
+          left: 0;
+          width: 30px;
+          height: 5px;
+          background: #34b8b5;
+        }
+
+        a {
+          font-size: 18px;
+          color: #333;
+          line-height: 28px;
+          font-weight: 700;
+        }
+      }
+
+      p {
+        a {
+
+        }
+      }
+    }
+  }
+}
+
+.authorContentWrap {
+  .authorWrap {
+    .authorInner {
+      display: flex;
+
+      .authorImg {
+        img {
+          border-radius: 50%;
+          width: 90px;
+          height: 90px;
+          margin-right: 20px;
+        }
+      }
+
+      .authorInfo {
+        .opinionTop {
+          a {
+
+          }
+        }
+
+        .authorTitle {
+          a {
+            font-size: 24px;
+
+          }
+        }
+
+        .authorName {
+
+
+          &:before {
+
+          }
+
+          a {
+
+          }
+        }
+
+        p {
+          a {
+
+          }
+        }
+      }
+    }
+  }
 }

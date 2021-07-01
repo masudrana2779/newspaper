@@ -925,6 +925,19 @@ p {
   .headerWrap .mainMenuWrap {
     display: none; }
   .newsImgL {
-    margin: 0 0 20px !important; } }
+    margin: 0 0 20px !important; }
+  .opinionWrap {
+    padding-left: 30px; }
+  .opinionBody {
+    margin-bottom: 40px; }
+  .authorContentWrap .authorWrap .authorInner {
+    display: block; }
+  .authorContentWrap .authorWrap .authorInner .authorImg {
+    margin-bottom: 20px; }
+  .footerMenu {
+    padding: 20px 0 0; }
+  .ourApp.text-right {
+    text-align: left !important;
+    padding-top: 30px; } }
 
 /*==========================================================*/

@@ -211,6 +211,7 @@ p {
 
 .newsLargeImg {
   position: relative;
+  overflow: hidden;
 
   a {
     display: block;
@@ -220,8 +221,13 @@ p {
   img {
     width: 100%;
     transition: all 0.5s;
-  }
+  }&:hover {
+     img {
+       transform: scale(1.1);
+     }
+   }
 }
+
 
 .newsContent {
   position: relative;

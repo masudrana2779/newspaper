@@ -182,7 +182,8 @@ p {
     max-width: 112px; }
 
 .newsLargeImg {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .newsLargeImg a {
     display: block;
     position: relative; }
@@ -191,6 +192,10 @@ p {
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s; }
+  .newsLargeImg:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
 
 .newsContent {
   position: relative; }

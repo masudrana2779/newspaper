@@ -163,6 +163,14 @@ h2 {
     h2 a i {
       color: #f4511e; }
 
+h6 a {
+  color: #1a237e;
+  font-size: 16px; }
+
+h6 + p a {
+  font-size: 18px;
+  font-weight: 700; }
+
 p {
   margin-bottom: 10px; }
   p a {
@@ -238,6 +246,14 @@ p {
   border-bottom: 1px solid #eee; }
   .tabContentBody .contentList:last-child {
     border-bottom: none; }
+  .tabContentBody .contentList h4 a {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 52px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; }
 
 .nav-tabs.tabsMenu {
   border-bottom: 1px solid #eee; }
@@ -733,6 +749,100 @@ p {
   .authorContentWrap .authorWrap .authorInner .authorInfo .authorTitle a {
     font-size: 24px; }
 
+.more {
+  padding: 30px 0; }
+  .more .btnMoreImg {
+    color: #37acff;
+    padding: 6px 20px;
+    background: transparent;
+    border: 1px solid #37acff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 16px;
+    font-weight: 600; }
+    .more .btnMoreImg:hover {
+      background: #37acff;
+      color: white; }
+
+.special_numbers {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px; }
+  .special_numbers .special_inner .specialMenu li a {
+    padding: 5px 10px;
+    display: block;
+    border: 1px solid #ddd;
+    margin: 0px 0px 2px 0px;
+    background: #eee;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s; }
+    .special_numbers .special_inner .specialMenu li a:hover {
+      padding-left: 15px;
+      background: #233a54;
+      color: #fff; }
+
+.widget_calendar {
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px; }
+  .widget_calendar .tableTitle {
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 18px; }
+  .widget_calendar table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 0; }
+    .widget_calendar table thead tr {
+      line-height: 34px; }
+    .widget_calendar table tr th {
+      background-color: #56514e;
+      font-weight: bold;
+      color: #ffffff;
+      border: 1px solid #ededed;
+      padding: 2px 8px; }
+      .widget_calendar table tr th:nth-child(5) {
+        background-color: #f03362;
+        font-weight: bold;
+        color: #ffffff; }
+    .widget_calendar table tr td {
+      padding: 8px 0; }
+      .widget_calendar table tr td:nth-child(5) {
+        background-color: #f6752b;
+        font-weight: bold;
+        color: #ffffff; }
+        .widget_calendar table tr td:nth-child(5):hover {
+          background-color: #f6752b;
+          font-weight: bold;
+          color: #ffffff; }
+        .widget_calendar table tr td:nth-child(5) a {
+          background-color: #f6752b;
+          font-weight: bold;
+          color: #ffffff;
+          width: 100%;
+          display: block; }
+      .widget_calendar table tr td:hover {
+        background: #ddd;
+        cursor: pointer; }
+  .widget_calendar .calenderPreNex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background: #eee; }
+    .widget_calendar .calenderPreNex span a {
+      color: #333; }
+
 .headerWrap {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1000,10 +1110,22 @@ p {
     padding-left: 30px; }
   .opinionBody {
     margin-bottom: 40px; }
-  .authorContentWrap .authorWrap .authorInner {
-    display: block; }
-  .authorContentWrap .authorWrap .authorInner .authorImg {
-    margin-bottom: 20px; }
+  .authorContentWrap .authorWrap .authorInner .authorImg img {
+    width: 70px;
+    height: 70px; }
+  .authorContentWrap .authorWrap .authorInner .authorInfo {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
+  .authorContentWrap .authorWrap .authorInner .authorInfo .authorTitle a {
+    font-size: 18px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 21px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; }
   .footerMenu {
     padding: 20px 0 0; }
   .ourApp.text-right {
@@ -1021,6 +1143,16 @@ p {
     margin-bottom: 0;
     font-size: 40px; }
   .tabContentBody .contentList h4 a {
-    font-weight: 400; } }
+    font-weight: 400; }
+  .newsContent {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 30px; }
+  hr {
+    display: none; }
+  .newsContent.overImg .newsInfo h4 a {
+    font-size: 22px; }
+  h4 a {
+    font-size: 22px; } }
 
 /*==========================================================*/

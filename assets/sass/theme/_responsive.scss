@@ -25,6 +25,17 @@
 }
 
 @media (max-width: 767px) {
+  a {
+    width: 100%;
+
+    img,
+    .img-fluid {
+      width: 100%;
+    }
+  }
+  .img-fluid {
+    width: 100%;
+  }
   .leftSide .barIcon .fa.fa-search {
     display: none;
   }
@@ -73,5 +84,20 @@
   .ourApp.text-right {
     text-align: left !important;
     padding-top: 30px;
+  }
+  .tabContentBody .contentList {
+    border-bottom: 1px solid #eee;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-row-gap: 20px;
+    padding: 15px 0 10px;
+  }
+  .tabContentBody .contentList h2 {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  .tabContentBody .contentList h4 a {
+    font-weight: 400;
   }
 }

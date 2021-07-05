@@ -49,6 +49,7 @@
         font-size: 24px;
         position: relative;
         cursor: pointer;
+
         &.fa-bell-o {
           &:after {
             width: 10px;
@@ -63,11 +64,13 @@
         }
 
       }
+
       .bell {
         i {
           padding-right: 20px;
         }
       }
+
       .user {
         i {
           padding-right: 0;
@@ -115,10 +118,18 @@
   cursor: pointer;
   display: inline-block;
 
+  .dropdown-toggle {
+    &:after {
+      display: none;
+    }
+  }
+
   .selectLang {
     position: absolute;
-    top: 20px;
+    top: 20px !important;
     right: 0;
+    left: auto !important;
+    transform: none !important;
     text-align: left;
     padding: 10px 10px 0;
     background: #fff;
@@ -127,19 +138,79 @@
     opacity: 0;
     min-width: max-content;
     visibility: hidden;
-  }
 
-  &:hover {
-    .selectLang {
+    &.show {
       opacity: 1;
       visibility: visible;
     }
   }
+
+  /*&:hover {
+    .selectLang {
+      opacity: 1;
+      visibility: visible;
+    }
+  }*/
 }
 
 .mbShow {
   display: none;
   @media (max-width: 767px) {
     display: inline-block;
+  }
+}
+
+.notification {
+  .dropdown-toggle {
+    &:after {
+      display: none;
+    }
+  }
+
+  .notificationMenu {
+    box-shadow: 0 1px 0.8rem 0 rgba(0, 0, 0, .3);
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 320px;
+    left: auto !important;
+    right: 0;
+    top: 35px !important;
+    transform: none !important;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      right: 0;
+      border-color: rgba(0, 0, 0, .3);
+      border-left: 10px solid #fff;
+      border-bottom: 10px solid #fff;
+      border-right: 10px solid transparent;
+      border-top: 10px solid transparent;
+      transform-origin: 0 0;
+      transform: rotate(
+                      135deg
+      );
+      box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, .15);
+    }
+
+    .dropdown-item {
+      padding: 5px 0;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      background: #0000;
+
+      p {
+        margin: 0;
+      }
+    }
+    .more {
+      .btnMore {
+        display: inline-block !important;
+      }
+    }
   }
 }

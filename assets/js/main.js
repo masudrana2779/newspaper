@@ -111,5 +111,15 @@ $(function () {
 
         onlineVoteSlider();
 
+        function searchBox() {
+            $('.searchBtn').on('click', function (){
+                $('.searchBox').addClass('jhjhj00');
+            });
+            $('body').on('click', function (){
+                $('.searchBox').removeClass('jhjhj00');
+            });
+        }
+        searchBox();
+
     });
 });

@@ -1,5 +1,5 @@
-1. Motamot Details
-2. Search box
+1. Motamot Details  -----  ok
+2. Search box  -----  ok
 3. Vote can not selected   -----  ok
 4. Album Page
 5. ছবি page

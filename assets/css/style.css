@@ -892,11 +892,73 @@ p {
       margin: 0 auto; }
 
 .leftSide .barIcon {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .leftSide .barIcon span {
+    display: inline-block; }
   .leftSide .barIcon i {
     font-size: 24px;
     padding-right: 20px;
     cursor: pointer; }
+  .leftSide .barIcon .searchBox .searchIcon {
+    height: 38px;
+    width: 38px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .leftSide .barIcon .searchBox .searchInput {
+    position: relative;
+    z-index: 1;
+    width: 34px;
+    display: none; }
+    .leftSide .barIcon .searchBox .searchInput .btn {
+      position: absolute;
+      top: 50%;
+      right: 2px;
+      padding: 0;
+      height: calc(100% - 4px);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 34px;
+      background: transparent !important;
+      border: none;
+      color: #333;
+      outline: none;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important; }
+      .leftSide .barIcon .searchBox .searchInput .btn i {
+        padding: 0; }
+    .leftSide .barIcon .searchBox .searchInput .form-control {
+      width: 100%;
+      opacity: 0;
+      visibility: hidden;
+      padding-right: 40px; }
+  .leftSide .barIcon .searchBox.searchBoxOpen .searchIcon {
+    display: none; }
+  .leftSide .barIcon .searchBox.searchBoxOpen .searchInput {
+    width: 250px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    display: block; }
+    .leftSide .barIcon .searchBox.searchBoxOpen .searchInput .form-control {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      opacity: 1;
+      visibility: visible; }
+    .leftSide .barIcon .searchBox.searchBoxOpen .searchInput .btn {
+      background: #007bff !important;
+      color: #fff; }
 
 .rightSide .rightInner .belIcon {
   margin-bottom: 10px;

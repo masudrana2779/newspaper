@@ -29,14 +29,87 @@
 .leftSide {
   .barIcon {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+    span {
+      display: inline-block;
+    }
 
     i {
       font-size: 24px;
       padding-right: 20px;
       cursor: pointer;
     }
+
+    .searchBox {
+      .searchIcon {
+        height: 38px;
+        width: 38px;
+        display: flex;
+        align-items: center;
+      }
+      .searchInput {
+        position: relative;
+        z-index: 1;
+        width: 34px;
+        display: none;
+
+        .btn {
+          position: absolute;
+          top: 50%;
+          right: 2px;
+          padding: 0;
+          height: calc(100% - 4px);
+          transform: translateY(-50%);
+          width: 34px;
+          background: transparent !important;
+          border: none;
+          color: #333;
+          outline: none;
+          box-shadow: none !important;
+
+          i {
+            padding: 0;
+          }
+        }
+
+        .form-control {
+          width: 100%;
+          opacity: 0;
+          visibility: hidden;
+          padding-right: 40px;
+        }
+
+
+      }
+
+      &.searchBoxOpen {
+        .searchIcon {
+          display: none;
+        }
+        .searchInput {
+          width: 250px;
+          transition: all 0.5s;
+          display: block;
+
+          .form-control {
+            transition: all 0.5s;
+            opacity: 1;
+            visibility: visible;
+          }
+
+          .btn {
+            background: #007bff !important;
+            color: #fff;
+          }
+        }
+      }
+
+    }
   }
 }
+
 
 .rightSide {
   .rightInner {
@@ -207,6 +280,7 @@
         margin: 0;
       }
     }
+
     .more {
       .btnMore {
         display: inline-block !important;

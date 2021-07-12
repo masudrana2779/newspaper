@@ -1224,7 +1224,9 @@ p {
   .newsContent.overImg .newsInfo h4 a {
     color: #121212; }
   .newsContent.overImg .newsInfo p a {
-    color: #121212; } }
+    color: #121212; }
+  .bradeComb {
+    margin-bottom: 20px; } }
 
 @media (max-width: 767px) {
   a {

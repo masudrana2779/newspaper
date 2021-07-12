@@ -64,7 +64,7 @@ $(function () {
 
         $('.closeAdd').on('click', function () {
             $('.popupAddWrap').removeClass('openPopupAddWrap');
-            $('body').removeClass('openLeftSideMenu');
+            $('body').removeClass('openAddPopup');
         });
 
 

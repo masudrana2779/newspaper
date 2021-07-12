@@ -872,7 +872,8 @@ p {
     line-height: 1.67; }
 
 .openAddPopup {
-  overflow: hidden; }
+  overflow: hidden;
+  padding-right: 17px; }
 
 .popupAddWrap {
   position: fixed;

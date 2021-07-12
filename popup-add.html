@@ -1,0 +1,2663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thikana</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="./assets/img/favicon.png">
+</head>
+<body class="openAddPopup">
+
+<header class="headerWrap" id="headerWrap">
+    <div class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <div class="leftSide">
+                        <div class="barIcon">
+                            <span class="openMenu"><i class="fa fa-bars"></i></span>
+                            <span class="searchBox" data-toggle="dropdown">
+                                <span class="searchIcon">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                                <span class="searchInput">
+                                    <input type="search" placeholder=" যা খুঁজতে চান" class="form-control">
+                                    <button class="btn btn-primary searchBtn"><i class="fa fa-search"></i></button>
+                                </span>
+                            </span>
+                        </div>
+                        <p>সোমবার, ০৭ জুন ২০২১</p>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6 col-6">
+                    <div class="logoWrap text-center">
+                        <a href="index.html"><img src="./assets/img/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-4">
+                    <div class="rightSide">
+                        <div class="rightInner text-right">
+                            <div class="belIcon">
+                                <span class="bell notification dropdown">
+                                    <span class="dropdown-toggle" data-toggle="dropdown"><i
+                                            class="fa fa-bell-o"></i></span>
+                                    <div class="dropdown-menu notificationMenu">
+                                        <a class="dropdown-item" href="#">
+                                            <p>প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো</p>
+                                            <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <p>প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো</p>
+                                            <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <p>প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো</p>
+                                            <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <p>প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো</p>
+                                            <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                        </a>
+                                        <a class="dropdown-item" href="#">
+                                            <p>প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো</p>
+                                            <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                        </a>
+                                        <div class="more text-center">
+                                            <button class="btn btnMore">আরও</button>
+                                        </div>
+                                    </div>
+                                </span>
+                                <span class="mbShow user"><i class="fa fa-user"></i></span>
+                                <a href="#" class="btn btn-success">Login</a>
+                            </div>
+                            <div class="selectLangMenu dropdown">
+                                সংস্করণ: <span class="dropdown-toggle" data-toggle="dropdown">বাংলা <i
+                                    class="fa fa-angle-down"></i> </span>
+
+                                <div class="selectLang dropdown-menu">
+                                    <div class="selectLangItem">
+                                        <input type="radio" name="language" id="item11">
+                                        <label for="item11">বাংলা</label>
+                                    </div>
+                                    <div class="selectLangItem">
+                                        <input type="radio" name="language" id="item21">
+                                        <label for="item21">English</label>
+                                    </div>
+                                    <div class="selectLangItem">
+                                        <input type="radio" name="language" id="item31">
+                                        <label for="item31">উত্তর আমেরিকা</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainMenuWrap border-top border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>-->
+                        <div class="collapse navbar-collapse mainMenu" id="mainMenu">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="latest.html">প্রধান সংবাদ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="latest.html">আমেরিকা</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="topic.html">বাংলাদেশ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="politics.html">আন্তর্জাতিক</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="topic.html">রাজনীতি</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bangladesh.html">অর্থনীতি</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">গ্রাম-বাংলা</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">খেলাধুলা</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">বিনোদন</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">প্রবাস</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">অন্যান্য</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--mainMenuWrap-->
+</header>
+<!--header-->
+
+<div class="popupAddWrap openPopupAddWrap">
+    <div class="popupAddContent">
+        <div class="closeAdd">
+            X
+        </div>
+        <div class="popupAdd">
+            <div class="popupAddInner">
+                <a href="#">
+                    <img src="./assets/img/add/popup.gif" alt="popupAdd" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="leftSideMenuWrap">
+    <div class="leftMenuContent">
+        <div class="closeMenu">
+            X
+        </div>
+        <ul class="leftMenuList">
+            <li class="nav-item">
+                <a class="nav-link active" href="latest.html">প্রধান সংবাদ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="latest.html">আমেরিকা</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="topic.html">বাংলাদেশ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="politics.html">আন্তর্জাতিক</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="topic.html">রাজনীতি</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bangladesh.html">অর্থনীতি</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">গ্রাম-বাংলা</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">খেলাধুলা</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">বিনোদন</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">প্রবাস</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">আইন ও অপরাধ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">শিক্ষা</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">স্বাস্থ্য</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">বিজ্ঞান ও প্রযুক্তি</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">শিল্প-সাহিত্য ও সংস্কৃতি</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">গণমাধ্যম</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">মতামত</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">নারী</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">অন্যান্য</a>
+            </li>
+            <li class="nav-item">
+                <div class="selectLang pt-3 pb-2">
+                    <div class="selectLangItem">
+                        <input type="radio" name="language" id="item111">
+                        <label for="item111">বাংলা</label>
+                    </div>
+                    <div class="selectLangItem">
+                        <input type="radio" name="language" id="item211">
+                        <label for="item211">English</label>
+                    </div>
+                    <div class="selectLangItem">
+                        <input type="radio" name="language" id="item311">
+                        <label for="item311">উত্তর আমেরিকা</label>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="addWrap border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-4 mb-4">
+                <div class="addImg">
+                    <img src="./assets/img/add/header.png" alt="add" class="img-fluid" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--addWrap-->
+
+<div class="trendingNewsWrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-sm-8 col-12">
+                <div class="innerRow border-bottom mt-4">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-12">
+                            <div class="trendNews">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-8 col-12 mt-4 mb-4">
+                                        <div class="newsContent">
+                                            <h3><a href="details.html">অর্থমন্ত্রী, এই নিন টাকা পাচারকারীর তথ্য</a></h3>
+                                            <p><a href="details.html">অর্থমন্ত্রী জাতীয় সংসদে টাকা পাচারকারীদের নাম
+                                                জানতে চেয়েছেন।
+                                                দেখা
+                                                যাক
+                                                অর্থমন্ত্রীকে কোনো সহায়তা করা যায় কি না।</a></p>
+                                            <p class="ago"><small>২ ঘণ্টা আগে</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4">
+                                        <div class="newsContent">
+                                            <a href="#">
+                                                <img src="./assets/img/trending/trending.jpg" alt="add"
+                                                     class="img-fluid"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12 border-left mt-4 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <h4><a href="#">বাংলাদেশ ০ঃ২ ভারত সুনীল ছেত্রীর কাছেই হেরে গেল বাংলাদেশ</a></h4>
+                                    <p><a href="#">বাংলাদেশের সঙ্গে ভারতের ফুটবলের যে পার্থক্য সেটা আরেকবার চোখে আঙুল
+                                        দিয়ে
+                                        দেখিয়ে দিল এই ম্যাচ।</a></p>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                    <div class="bannerImg">
+                                        <a href="#"><img src="./assets/img/banner/banner.png" alt="banner"
+                                                         class="img-fluid"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innerRow">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-12 mt-4 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                    <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                                        উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12 border-left mt-4 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <h4><a href="#">ইংলিশ চ্যানেলে ডুবে যাওয়া কুর্দি ইরানি শিশুর মরদেহ নরওয়েতে
+                                        উদ্ধার</a></h4>
+                                    <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                                        উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12 border-left mt-4 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <h4><a href="#">মতামত বাইডেনের ওস্তাদি চাল</a></h4>
+                                    <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                                        উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innerRow">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-12 mt-4 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="d-flex">
+                                        <div class="newsImg">
+                                            <a href="#"><img src="./assets/img/news/news_thumb_1.jpg" alt="img"></a>
+                                        </div>
+                                        <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                    </div>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12 border-left mt-4 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="d-flex">
+                                        <div class="newsImg">
+                                            <a href="#"><img src="./assets/img/news/news_thumb_2.jpg" alt="img"></a>
+                                        </div>
+                                        <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                    </div>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12 border-left mt-4 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="d-flex">
+                                        <div class="newsImg">
+                                            <a href="#"><img src="./assets/img/news/news_thumb_3.jpg" alt="img"></a>
+                                        </div>
+                                        <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                    </div>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 border-left mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <img src="./assets/img/add/add-2.gif" alt="add" class="img-fluid">
+                    </div>
+                </div>
+                <hr class="mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+                <hr class="mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImg">
+                                <a href="#"><img src="./assets/img/news/news_thumb_4.jpeg" alt="img"></a>
+                            </div>
+                            <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                        </div>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--trendingNewsWrap-->
+
+
+<div class="addWrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="border-bottom">
+                    <div class="addImg mb-4">
+                        <img src="./assets/img/add/font_page1.jpg" alt="add" class="img-fluid" style="width: 100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--addWrap-->
+
+<div class="jocksNewsWrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-12 mt-4 mb-4">
+                <ul class="tabsMenu nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                           aria-controls="home" aria-selected="true">সুখবর</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                           aria-controls="profile" aria-selected="false">পঠিত</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                           aria-controls="contact" aria-selected="false">আলোচিত</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="tabContentBody">
+                            <div class="contentList">
+                                <h2><a href="#">১</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                            <div class="contentList">
+                                <h2><a href="#">২</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                            <div class="contentList">
+                                <h2><a href="#">১</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                            <div class="contentList">
+                                <h2><a href="#">১</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="tabContentBody">
+                            <div class="contentList">
+                                <h2><a href="#">১</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                            <div class="contentList">
+                                <h2><a href="#">২</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                            <div class="contentList">
+                                <h2><a href="#">১</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                            <div class="contentList">
+                                <h2><a href="#">১</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="tabContentBody">
+                            <div class="contentList">
+                                <h2><a href="#">১</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                            <div class="contentList">
+                                <h2><a href="#">২</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                            <div class="contentList">
+                                <h2><a href="#">১</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                            <div class="contentList">
+                                <h2><a href="#">১</a></h2>
+                                <h4><a href="#">করোনা চিকিৎসায় নতুন অ্যান্টিবডি, ১২ ঘণ্টায় সুস্থ ২ রোগী</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4 border-left">
+                <div class="secTop">
+                    <h4><a href="#"> <b>একটু থামুন <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="newsContent overImg">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <div class="newsInfo">
+                            <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                            <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                                উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                            <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-12">
+                        <div class="newsContent">
+                            <div class="contentInner">
+                                <div class="newsLargeImg mb-4">
+                                    <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                </div>
+                                <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                                    উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-12 border-left">
+                        <div class="newsContent">
+                            <div class="contentInner">
+                                <div class="newsLargeImg mb-4">
+                                    <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                </div>
+                                <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                                    উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <img src="./assets/img/add/fontpage_sideber1.png" alt="add" class="img-fluid">
+                    </div>
+                </div>
+                <div class="secTop">
+                    <h4><a href="#"> &nbsp; </a></h4>
+                </div>
+
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImg">
+                                <a href="#"><img src="./assets/img/news/news_thumb_4.jpeg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h6><a href="#">বাসার ভাই ৩১৮</a></h6>
+                                <p><b><a href="#">ধরে ধরে রিপোর্ট করো</a></b></p>
+                            </div>
+                        </div>
+                        <!--                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>-->
+                    </div>
+                </div>
+                <hr>
+
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImg">
+                                <a href="#"><img src="./assets/img/news/news_thumb_4.jpeg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h6><a href="#">বাসার ভাই ৩১৮</a></h6>
+                                <p><b><a href="#">ধরে ধরে রিপোর্ট করো</a></b></p>
+                            </div>
+                        </div>
+                        <!--                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>-->
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImg">
+                                <a href="#"><img src="./assets/img/news/news_thumb_4.jpeg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h6><a href="#">বাসার ভাই ৩১৮</a></h6>
+                                <p><b><a href="#">ধরে ধরে রিপোর্ট করো</a></b></p>
+                            </div>
+                        </div>
+                        <!--                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+
+
+<div class="addWrap border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-4 mb-4">
+                <div class="addImg">
+                    <img src="./assets/img/add/font_page2.png" alt="add" class="img-fluid" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--addWrap-->
+
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>আমেরিকা <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>বাংলাদেশ <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="">
+            <div class="row">
+                <div class="col-md-9 col-sm-12 col-12">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-6 col-12 mt-4 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h3><a href="#">ত্বকী হত্যার ৯৯ মাস, ঘাতকদের বিচারের দাবিতে আলোক প্রজ্বালন</a></h3>
+                                    <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী
+                                        হত্যার বিচার
+                                        এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                        তদন্তে যখন ত্বকীর
+                                        ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 mt-4 mb-4 border-left">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-12 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 mb-4 border-left">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 mb-4 border-left">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-12 mt-4 mb-4 border-left">
+                    <hr class="mt-4">
+                    <div class=" mt-4">
+                        <h4><span>বাংলাদেশ</span></h4>
+                    </div>
+                    <div class="ourNewsForm">
+                        <form>
+                            <div class="form-group mb-4">
+                                <select class="form-control">
+                                    <option value="0">বিভাগ</option>
+                                    <option value="87">ঢাকা</option>
+                                    <option value="1698">চট্টগ্রাম</option>
+                                    <option value="1692">রাজশাহী</option>
+                                    <option value="1690">খুলনা</option>
+                                    <option value="1688">বরিশাল</option>
+                                    <option value="1684">সিলেট</option>
+                                    <option value="1682">রংপুর</option>
+                                    <option value="5821">ময়মনসিংহ</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-4">
+                                <select class="form-control">
+                                    <option value="0">জেলা</option>
+                                    <option value="1148">ঢাকা</option>
+                                    <option value="386">নরসিংদী</option>
+                                    <option value="385">মুন্সিগঞ্জ</option>
+                                    <option value="374">মানিকগঞ্জ</option>
+                                    <option value="329">টাঙ্গাইল</option>
+                                    <option value="315">ফরিদপুর</option>
+                                    <option value="314">গোপালগঞ্জ</option>
+                                    <option value="311">মাদারীপুর</option>
+                                    <option value="250">কিশোরগঞ্জ</option>
+                                    <option value="245">গাজীপুর</option>
+                                    <option value="247">নারায়ণগঞ্জ</option>
+                                    <option value="410">শরীয়তপুর</option>
+                                    <option value="368">রাজবাড়ী</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-4">
+                                <select class="form-control">
+                                    <option value="0">উপজেলা</option>
+                                    <option value="1150">ধামরাই</option>
+                                    <option value="437">দোহার</option>
+                                    <option value="378">কেরানীগঞ্জ</option>
+                                    <option value="332">সাভার</option>
+                                    <option value="9535">নবাবগঞ্জ ঢাকা</option>
+                                    <option value="296">রাজধানী ঢাকা</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary form-control">
+                                    <i class="fa fa-search"></i>
+                                    খুঁজুন
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-11">
+                <div class="opinionWrap mb-4">
+                    <div class="row">
+                        <div class="secTop mt-4">
+                            <h4><a href="#"> <b>মতামত <i class="fa fa-angle-right"></i> </b> </a></h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-12">
+                            <div class="opinionBody">
+                                <div class="opinionInner">
+                                    <h4 class="opinionTop">
+                                        <a href="#">মতামত</a>
+                                    </h4>
+                                    <h2 class="opinionTitle"><a href="#"><span>আমলাদের নিয়ে রাজনীতিবিদদের দুঃখ ও
+                                        পালাগানের আসর</span></a></h2>
+                                    <p class="opinionPara"><a href="#">সংসদীয় গণতন্ত্র মানে জনপ্রতিনিধিদের দ্বারা শাসন,
+                                        কেন্দ্রীয়
+                                        নির্বাহী ক্ষমতাকে সংসদীয় আসনগুলোর মধ্যে বণ্টন। সেই ক্ষমতা যদি সচিব ও
+                                        ডিসিদের হাতে চলে যায়, তাহলে নামকাওয়াস্তেও এটা বলা কঠিন যে দেশে সংসদ আছে
+                                        ...</a></p>
+                                    <div class="authorWrap">
+                                        <div class="authorInner">
+                                            <div class="authorImg">
+                                                <img src="./assets/img/oponion.jpg" alt="img"
+                                                     class="img-fluid img-round">
+                                            </div>
+                                            <div class="authorInfo">
+                                                <h5 class="authorName"><a href="#">ফারুক ওয়াসিফ</a></h5>
+                                                <p><a href="#">লেখক ও সাংবাদিক</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-6 col-12">
+                            <div class="authorContentWrap">
+                                <div class="authorWrap">
+                                    <div class="authorInner">
+                                        <div class="authorImg">
+                                            <img src="./assets/img/oponion1.jpg" alt="img"
+                                                 class="img-fluid img-round">
+                                        </div>
+                                        <div class="authorInfo">
+                                            <h4 class="opinionTop">
+                                                <a href="#">মতামত</a>
+                                            </h4>
+                                            <h3 class="authorTitle"><a href="#">ঢাকা কি ঢাকনায় ঢাকা এক মৃত্যুকূপ</a>
+                                            </h3>
+                                            <h5 class="authorName"><a href="#">ফারুক ওয়াসিফ</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="authorWrap">
+                                    <div class="authorInner">
+                                        <div class="authorImg">
+                                            <img src="./assets/img/oponion1.jpg" alt="img"
+                                                 class="img-fluid img-round">
+                                        </div>
+                                        <div class="authorInfo">
+                                            <h4 class="opinionTop">
+                                                <a href="#">মতামত</a>
+                                            </h4>
+                                            <h3 class="authorTitle"><a href="#">ঢাকা কি ঢাকনায় ঢাকা এক মৃত্যুকূপ</a>
+                                            </h3>
+                                            <h5 class="authorName"><a href="#">ফারুক ওয়াসিফ</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="authorWrap">
+                                    <div class="authorInner">
+                                        <div class="authorImg">
+                                            <img src="./assets/img/oponion1.jpg" alt="img"
+                                                 class="img-fluid img-round">
+                                        </div>
+                                        <div class="authorInfo">
+                                            <h4 class="opinionTop">
+                                                <a href="#">মতামত</a>
+                                            </h4>
+                                            <h3 class="authorTitle"><a href="#">ঢাকা কি ঢাকনায় ঢাকা এক মৃত্যুকূপ</a>
+                                            </h3>
+                                            <h5 class="authorName"><a href="#">ফারুক ওয়াসিফ</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="addWrap border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-4 mb-4">
+                <div class="addImg">
+                    <img src="./assets/img/add/font_page3.jpg" alt="add" class="img-fluid" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--addWrap-->
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>আন্তর্জাতিক <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h3><a href="#">ত্বকী হত্যার ৯৯ মাস, ঘাতকদের বিচারের দাবিতে আলোক প্রজ্বালন</a></h3>
+                        <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার বিচার
+                            এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ, তদন্তে যখন ত্বকীর
+                            ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_5.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_5.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_5.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>খেলা <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12 mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news/sports.jpeg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_6.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p class="line_2"><a href="#">ভারত-পাকিস্তান সর্বশেষ সিরিজটি আয়োজিত হয়েছিল ২০১২ সালে।
+                                    ভারতে হওয়া সেই তিন ম্যাচের ওয়ানডে সিরিজে ২-১ ব্যবধানে জিতেছিল পাকিস্তান।</a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_6.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p class="line_2"><a href="#">ভারত-পাকিস্তান সর্বশেষ সিরিজটি আয়োজিত হয়েছিল ২০১২ সালে।
+                                    ভারতে হওয়া সেই তিন ম্যাচের ওয়ানডে সিরিজে ২-১ ব্যবধানে জিতেছিল পাকিস্তান।</a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_6.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p class="line_2"><a href="#">ভারত-পাকিস্তান সর্বশেষ সিরিজটি আয়োজিত হয়েছিল ২০১২ সালে।
+                                    ভারতে হওয়া সেই তিন ম্যাচের ওয়ানডে সিরিজে ২-১ ব্যবধানে জিতেছিল পাকিস্তান।</a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_6.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p class="line_2"><a href="#">ভারত-পাকিস্তান সর্বশেষ সিরিজটি আয়োজিত হয়েছিল ২০১২ সালে।
+                                    ভারতে হওয়া সেই তিন ম্যাচের ওয়ানডে সিরিজে ২-১ ব্যবধানে জিতেছিল পাকিস্তান।</a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="secTop">
+                    <h4><a href="#"> <b>অনলাইন ভোট <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="onlineVoteWrap">
+                    <div class="onlineVoteInner">
+                        <div class="onlineVoteSlider owl-carousel">
+                            <div class="onlineVoteSliderItem">
+                                <div class="onlineVoteSliderInner">
+                                    <div class="sliderImg">
+                                        <img src="./assets/img/vote/vote.jpg" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>স্বশাসিত সংস্থাগুলোর উদ্বৃত্ত অর্থ রাষ্ট্রীয় কোষাগারে জমা নেওয়ার সিদ্ধান্তের
+                                            সঙ্গে আপনি কি একমত?
+                                        </p>
+                                        <div class="voteWrap">
+                                            <form>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="yes" name="opinion">
+                                                    <label for="yes" class="voteSingleItem">হ্যাঁ <span class="right">30%</span>
+                                                    </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 60%"></div>
+                                                    <input type="radio" id="no" name="opinion">
+                                                    <label for="no" class="voteSingleItem">না <span
+                                                            class="right">60%</span> </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="noOpinion" name="opinion">
+                                                    <label for="noOpinion" class="voteSingleItem">মন্তব্য নেই <span
+                                                            class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItemBtn text-right">
+                                                    <button class="btn btnVote">Vote</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="shareBtnWrap">
+                                        <button class="btn btnShare">
+                                            <svg viewBox="0 0 72 72" id="share"><title>share</title>
+                                                <path d="M53.84 62.738c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.897 2.215 4.897 4.948c0 2.733-2.192 4.948-4.897 4.948M15.272 40.006c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.9 2.215 4.9 4.948c0 2.733-2.195 4.948-4.9 4.948M53.84 7.91c2.705 0 4.897 2.215 4.897 4.948 0 2.733-2.192 4.949-4.897 4.949s-4.897-2.216-4.897-4.949c0-2.733 2.192-4.948 4.897-4.948m-.06 40.407c-2.42 0-4.588.968-6.243 2.482l-22.713-13.36c.16-.741.288-1.478.288-2.252 0-.773-.128-1.514-.288-2.254l22.457-13.228c1.719 1.608 3.982 2.608 6.499 2.608 5.285 0 9.555-4.312 9.555-9.656S59.065 3 53.78 3c-5.289 0-9.556 4.312-9.556 9.656 0 .773.124 1.514.285 2.251l-22.457 13.23c-1.72-1.61-3.98-2.607-6.495-2.607-5.289 0-9.556 4.312-9.556 9.656s4.267 9.656 9.556 9.656c2.516 0 4.776-.996 6.495-2.607l22.68 13.389a9.126 9.126 0 0 0-.252 2.093c0 5.182 4.171 9.397 9.3 9.397 5.128 0 9.299-4.215 9.299-9.397s-4.171-9.4-9.3-9.4"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                            share
+                                        </button>
+                                        <button class="btn btnEmbed">
+                                            <svg viewBox="0 0 72 72" id="embed2"><title>embed2</title>
+                                                <g transform="translate(4 10)" fill-rule="evenodd">
+                                                    <path d="M37.37 0L22 50.992 26.625 53 42 2.01zM0 24.002L16.462 42 20 37.944 7.252 24.002 20 10.058 16.462 6zM44 10.058l12.748 13.94L44 37.943 47.535 42 64 23.999 47.535 6z"></path>
+                                                </g>
+                                            </svg>
+                                            Embed
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="onlineVoteSliderItem">
+                                <div class="onlineVoteSliderInner">
+                                    <div class="sliderImg">
+                                        <img src="./assets/img/vote/vote.jpg" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>স্বশাসিত সংস্থাগুলোর উদ্বৃত্ত অর্থ রাষ্ট্রীয় কোষাগারে জমা নেওয়ার সিদ্ধান্তের
+                                            সঙ্গে আপনি কি একমত?
+                                        </p>
+                                        <div class="voteWrap">
+                                            <form>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="yes1" name="opinion">
+                                                    <label for="yes1" class="voteSingleItem">হ্যাঁ <span class="right">30%</span>
+                                                    </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 60%"></div>
+                                                    <input type="radio" id="no1" name="opinion">
+                                                    <label for="no1" class="voteSingleItem">না <span
+                                                            class="right">60%</span> </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="noOpinion1" name="opinion">
+                                                    <label for="noOpinion1" class="voteSingleItem">মন্তব্য নেই <span
+                                                            class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItemBtn text-right">
+                                                    <button class="btn btnVote">Vote</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="shareBtnWrap">
+                                        <button class="btn btnShare">
+                                            <svg viewBox="0 0 72 72" id="share"><title>share</title>
+                                                <path d="M53.84 62.738c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.897 2.215 4.897 4.948c0 2.733-2.192 4.948-4.897 4.948M15.272 40.006c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.9 2.215 4.9 4.948c0 2.733-2.195 4.948-4.9 4.948M53.84 7.91c2.705 0 4.897 2.215 4.897 4.948 0 2.733-2.192 4.949-4.897 4.949s-4.897-2.216-4.897-4.949c0-2.733 2.192-4.948 4.897-4.948m-.06 40.407c-2.42 0-4.588.968-6.243 2.482l-22.713-13.36c.16-.741.288-1.478.288-2.252 0-.773-.128-1.514-.288-2.254l22.457-13.228c1.719 1.608 3.982 2.608 6.499 2.608 5.285 0 9.555-4.312 9.555-9.656S59.065 3 53.78 3c-5.289 0-9.556 4.312-9.556 9.656 0 .773.124 1.514.285 2.251l-22.457 13.23c-1.72-1.61-3.98-2.607-6.495-2.607-5.289 0-9.556 4.312-9.556 9.656s4.267 9.656 9.556 9.656c2.516 0 4.776-.996 6.495-2.607l22.68 13.389a9.126 9.126 0 0 0-.252 2.093c0 5.182 4.171 9.397 9.3 9.397 5.128 0 9.299-4.215 9.299-9.397s-4.171-9.4-9.3-9.4"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                            share
+                                        </button>
+                                        <button class="btn btnEmbed">
+                                            <svg viewBox="0 0 72 72" id="embed2"><title>embed2</title>
+                                                <g transform="translate(4 10)" fill-rule="evenodd">
+                                                    <path d="M37.37 0L22 50.992 26.625 53 42 2.01zM0 24.002L16.462 42 20 37.944 7.252 24.002 20 10.058 16.462 6zM44 10.058l12.748 13.94L44 37.943 47.535 42 64 23.999 47.535 6z"></path>
+                                                </g>
+                                            </svg>
+                                            Embed
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="onlineVoteSliderItem">
+                                <div class="onlineVoteSliderInner">
+                                    <div class="sliderImg">
+                                        <img src="./assets/img/vote/vote.jpg" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>স্বশাসিত সংস্থাগুলোর উদ্বৃত্ত অর্থ রাষ্ট্রীয় কোষাগারে জমা নেওয়ার সিদ্ধান্তের
+                                            সঙ্গে আপনি কি একমত?
+                                        </p>
+                                        <div class="voteWrap">
+                                            <form>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="yes2" name="opinion">
+                                                    <label for="yes2" class="voteSingleItem">হ্যাঁ <span class="right">30%</span>
+                                                    </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 60%"></div>
+                                                    <input type="radio" id="no2" name="opinion">
+                                                    <label for="no2" class="voteSingleItem">না <span
+                                                            class="right">60%</span> </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="noOpinion2" name="opinion">
+                                                    <label for="noOpinion2" class="voteSingleItem">মন্তব্য নেই <span
+                                                            class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItemBtn text-right">
+                                                    <button class="btn btnVote">Vote</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="shareBtnWrap">
+                                        <button class="btn btnShare">
+                                            <svg viewBox="0 0 72 72" id="share"><title>share</title>
+                                                <path d="M53.84 62.738c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.897 2.215 4.897 4.948c0 2.733-2.192 4.948-4.897 4.948M15.272 40.006c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.9 2.215 4.9 4.948c0 2.733-2.195 4.948-4.9 4.948M53.84 7.91c2.705 0 4.897 2.215 4.897 4.948 0 2.733-2.192 4.949-4.897 4.949s-4.897-2.216-4.897-4.949c0-2.733 2.192-4.948 4.897-4.948m-.06 40.407c-2.42 0-4.588.968-6.243 2.482l-22.713-13.36c.16-.741.288-1.478.288-2.252 0-.773-.128-1.514-.288-2.254l22.457-13.228c1.719 1.608 3.982 2.608 6.499 2.608 5.285 0 9.555-4.312 9.555-9.656S59.065 3 53.78 3c-5.289 0-9.556 4.312-9.556 9.656 0 .773.124 1.514.285 2.251l-22.457 13.23c-1.72-1.61-3.98-2.607-6.495-2.607-5.289 0-9.556 4.312-9.556 9.656s4.267 9.656 9.556 9.656c2.516 0 4.776-.996 6.495-2.607l22.68 13.389a9.126 9.126 0 0 0-.252 2.093c0 5.182 4.171 9.397 9.3 9.397 5.128 0 9.299-4.215 9.299-9.397s-4.171-9.4-9.3-9.4"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                            share
+                                        </button>
+                                        <button class="btn btnEmbed">
+                                            <svg viewBox="0 0 72 72" id="embed2"><title>embed2</title>
+                                                <g transform="translate(4 10)" fill-rule="evenodd">
+                                                    <path d="M37.37 0L22 50.992 26.625 53 42 2.01zM0 24.002L16.462 42 20 37.944 7.252 24.002 20 10.058 16.462 6zM44 10.058l12.748 13.94L44 37.943 47.535 42 64 23.999 47.535 6z"></path>
+                                                </g>
+                                            </svg>
+                                            Embed
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="onlineVoteSliderItem">
+                                <div class="onlineVoteSliderInner">
+                                    <div class="sliderImg">
+                                        <img src="./assets/img/vote/vote.jpg" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="sliderContent">
+                                        <p>স্বশাসিত সংস্থাগুলোর উদ্বৃত্ত অর্থ রাষ্ট্রীয় কোষাগারে জমা নেওয়ার সিদ্ধান্তের
+                                            সঙ্গে আপনি কি একমত?
+                                        </p>
+                                        <div class="voteWrap">
+                                            <form>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="yes3" name="opinion">
+                                                    <label for="yes3" class="voteSingleItem">হ্যাঁ <span class="right">30%</span>
+                                                    </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 60%"></div>
+                                                    <input type="radio" id="no3" name="opinion">
+                                                    <label for="no3" class="voteSingleItem">না <span
+                                                            class="right">60%</span> </label>
+                                                </div>
+                                                <div class="voteItem">
+                                                    <div class="bg" style="width: 30%"></div>
+                                                    <input type="radio" id="noOpinion3" name="opinion">
+                                                    <label for="noOpinion3" class="voteSingleItem">মন্তব্য নেই <span
+                                                            class="right">30%</span> </label>
+                                                </div>
+                                                <div class="voteItemBtn text-right">
+                                                    <button class="btn btnVote">Vote</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="shareBtnWrap">
+                                        <button class="btn btnShare">
+                                            <svg viewBox="0 0 72 72" id="share"><title>share</title>
+                                                <path d="M53.84 62.738c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.897 2.215 4.897 4.948c0 2.733-2.192 4.948-4.897 4.948M15.272 40.006c-2.705 0-4.897-2.215-4.897-4.948 0-2.733 2.192-4.948 4.897-4.948s4.9 2.215 4.9 4.948c0 2.733-2.195 4.948-4.9 4.948M53.84 7.91c2.705 0 4.897 2.215 4.897 4.948 0 2.733-2.192 4.949-4.897 4.949s-4.897-2.216-4.897-4.949c0-2.733 2.192-4.948 4.897-4.948m-.06 40.407c-2.42 0-4.588.968-6.243 2.482l-22.713-13.36c.16-.741.288-1.478.288-2.252 0-.773-.128-1.514-.288-2.254l22.457-13.228c1.719 1.608 3.982 2.608 6.499 2.608 5.285 0 9.555-4.312 9.555-9.656S59.065 3 53.78 3c-5.289 0-9.556 4.312-9.556 9.656 0 .773.124 1.514.285 2.251l-22.457 13.23c-1.72-1.61-3.98-2.607-6.495-2.607-5.289 0-9.556 4.312-9.556 9.656s4.267 9.656 9.556 9.656c2.516 0 4.776-.996 6.495-2.607l22.68 13.389a9.126 9.126 0 0 0-.252 2.093c0 5.182 4.171 9.397 9.3 9.397 5.128 0 9.299-4.215 9.299-9.397s-4.171-9.4-9.3-9.4"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                            share
+                                        </button>
+                                        <button class="btn btnEmbed">
+                                            <svg viewBox="0 0 72 72" id="embed2"><title>embed2</title>
+                                                <g transform="translate(4 10)" fill-rule="evenodd">
+                                                    <path d="M37.37 0L22 50.992 26.625 53 42 2.01zM0 24.002L16.462 42 20 37.944 7.252 24.002 20 10.058 16.462 6zM44 10.058l12.748 13.94L44 37.943 47.535 42 64 23.999 47.535 6z"></path>
+                                                </g>
+                                            </svg>
+                                            Embed
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>রাজনীতি <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>অর্থনীতি <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="">
+            <div class="row">
+                <div class="col-md-9 col-sm-6 col-12">
+                    <div class="row">
+
+                        <div class="col-md-8 col-sm-6 col-12 mt-4 mb-4">
+
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h3><a href="#">ত্বকী হত্যার ৯৯ মাস, ঘাতকদের বিচারের দাবিতে আলোক প্রজ্বালন</a></h3>
+                                    <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী
+                                        হত্যার বিচার
+                                        এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                        তদন্তে যখন ত্বকীর
+                                        ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12 mt-4 mb-4 border-left">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-12 mb-4">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 mb-4 border-left">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12 mb-4 border-left">
+                            <div class="newsContent">
+                                <div class="contentInner">
+                                    <div class="newsLargeImg mb-4">
+                                        <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                                    </div>
+                                    <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                                    <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 mt-4 mb-4 border-left">
+
+                    <div class="secTop">
+                        <h4 class="mb-4"><a> <b>বিশেষ সংখ্যা <i class="fa fa-angle-right"></i> </b> </a></h4>
+                    </div>
+                    <div class="special_numbers">
+                        <div class="special_inner">
+                            <ul class="specialMenu">
+                                <li><a href="#">বর্ষপূর্তি সংখ্যা ২০২১</a></li>
+                                <li><a href="#">বর্ষপূর্তি সংখ্যা ২০২১</a></li>
+                                <li><a href="#">বর্ষপূর্তি সংখ্যা ২০২১</a></li>
+                                <li><a href="#">বর্ষপূর্তি সংখ্যা ২০২১</a></li>
+                                <li><a href="#">বর্ষপূর্তি সংখ্যা ২০২১</a></li>
+                                <li><a href="#">বর্ষপূর্তি সংখ্যা ২০২১</a></li>
+                                <li><a href="#">বর্ষপূর্তি সংখ্যা ২০২১</a></li>
+                                <li><a href="#">বর্ষপূর্তি সংখ্যা ২০২১</a></li>
+                                <li><a href="#">বর্ষপূর্তি সংখ্যা ২০২১</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget_calendar">
+                        <div id="calendar_wrap" class="calendar_wrap">
+                            <h5 class="tableTitle">July 2021</h5>
+                            <table id="wp-calendar" class="wp-calendar-table table">
+                                <thead>
+                                <tr>
+                                    <th scope="col" title="Monday">M</th>
+                                    <th scope="col" title="Tuesday">T</th>
+                                    <th scope="col" title="Wednesday">W</th>
+                                    <th scope="col" title="Thursday">T</th>
+                                    <th scope="col" title="Friday">F</th>
+                                    <th scope="col" title="Saturday">S</th>
+                                    <th scope="col" title="Sunday">S</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="pad">&nbsp;</td>
+                                    <td class="pad">&nbsp;</td>
+                                    <td class="pad">&nbsp;</td>
+                                    <td><a href="#">1</a></td>
+                                    <td><a href="#">2</a></td>
+                                    <td><a href="#">3</a></td>
+                                    <td><a href="#">4</a></td>
+                                </tr>
+                                <tr>
+                                    <td id="today"><a href="#">5</a>
+                                    </td>
+                                    <td>6</td>
+                                    <td>7</td>
+                                    <td>8</td>
+                                    <td>9</td>
+                                    <td>10</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>13</td>
+                                    <td>14</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>17</td>
+                                    <td>18</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>20</td>
+                                    <td>21</td>
+                                    <td>22</td>
+                                    <td>23</td>
+                                    <td>24</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>27</td>
+                                    <td>28</td>
+                                    <td>29</td>
+                                    <td>30</td>
+                                    <td>31</td>
+                                    <td class="pad" colspan="1">&nbsp;</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <nav class="calenderPreNex">
+                                <span class="wp-calendar-nav-prev"><a href="#">« Jun</a></span>
+                                <span class="wp-calendar-nav-next"><a href="#">Jul »</a></span>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="addWrap border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-4 mb-4">
+                <div class="addImg">
+                    <img src="./assets/img/add/font_page4.png" alt="add" class="img-fluid" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--addWrap-->
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>গ্রাম-বাংলা <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h3><a href="#">ত্বকী হত্যার ৯৯ মাস, ঘাতকদের বিচারের দাবিতে আলোক প্রজ্বালন</a></h3>
+                        <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার বিচার
+                            এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ, তদন্তে যখন ত্বকীর
+                            ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_5.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_5.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_5.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>বিনোদন <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12 mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_8.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">মা হচ্ছেন নুসরাত!</a></h4>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_9.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">হতে পারতেন ‘থ্রি ইডিয়টস’-এর নায়িকা</a></h4>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_8.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">মা হচ্ছেন নুসরাত!</a></h4>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_9.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">হতে পারতেন ‘থ্রি ইডিয়টস’-এর নায়িকা</a></h4>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news/sports.jpeg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_8.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">মা হচ্ছেন নুসরাত!</a></h4>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_9.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">হতে পারতেন ‘থ্রি ইডিয়টস’-এর নায়িকা</a></h4>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_8.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">মা হচ্ছেন নুসরাত!</a></h4>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_9.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">হতে পারতেন ‘থ্রি ইডিয়টস’-এর নায়িকা</a></h4>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="newsItemWrap">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="secTop mt-4">
+                    <h4><a href="#"> <b>প্রবাস <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="secTop mt-4">
+                    <h4><a href="#"> <b>আইন ও অপরাধ <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="secTop mt-4">
+                    <h4><a href="#"> <b>শিক্ষা <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="secTop mt-4">
+                    <h4><a href="#"> <b>স্বাস্থ্য <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>বাণিজ্য <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news/bb.png" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p><a href="#">প্রথমার্ধের ১৫ মিনিট কিছুটা গোছালো ফুটবল খেললেও এর পর আর ভালো ফুটবল
+                            উপহার দিতে পারেনি বাংলাদেশ। ম্যাচে কখনোই জেতার</a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_7.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <p><a href="#">কর ব্যবস্থা</a></p>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_7.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#"><img src="./assets/img/news/news_thumb_7.jpg" alt="img"></a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+
+<div class="newsItemWrap darkBg">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>ভিডিও <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-12 mt-4 mb-4">
+                <div class="newsContent overImg">
+                    <a href="#" class="contentInner" data-toggle="modal" data-target="#modal_1">
+                        <span class="playIcon"><i class="fa fa-play"></i></span>
+                        <div class="newsLargeImg mb-4">
+                            <img src="./assets/img/news/বাণিজ্য.png" alt="img">
+                        </div>
+                        <div class="newsInfo">
+                            <h4>ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</h4>
+                            <br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12 mt-4 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#" data-toggle="modal" data-target="#modal_1">
+                                    <span class="playIcon"><i class="fa fa-play"></i></span>
+                                    <img src="./assets/img/news/news_thumb_9.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#" data-toggle="modal" data-target="#modal_1">হতে পারতেন ‘থ্রি ইডিয়টস’-এর
+                                    নায়িকা</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#" data-toggle="modal" data-target="#modal_1">
+                                    <span class="playIcon"><i class="fa fa-play"></i></span>
+                                    <img src="./assets/img/news/news_thumb_9.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#" data-toggle="modal" data-target="#modal_1">হতে পারতেন ‘থ্রি ইডিয়টস’-এর
+                                    নায়িকা</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#" data-toggle="modal" data-target="#modal_1">
+                                    <span class="playIcon"><i class="fa fa-play"></i></span>
+                                    <img src="./assets/img/news/news_thumb_9.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#" data-toggle="modal" data-target="#modal_1">হতে পারতেন ‘থ্রি ইডিয়টস’-এর
+                                    নায়িকা</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="#" data-toggle="modal" data-target="#modal_1">
+                                    <span class="playIcon"><i class="fa fa-play"></i></span>
+                                    <img src="./assets/img/news/news_thumb_9.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#" data-toggle="modal" data-target="#modal_1">হতে পারতেন ‘থ্রি ইডিয়টস’-এর
+                                    নায়িকা</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#" data-toggle="modal" data-target="#modal_1">
+                                <span class="playIcon"><i class="fa fa-play"></i></span>
+                                <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                            </a>
+                        </div>
+                        <h4><a href="#" data-toggle="modal" data-target="#modal_1">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ
+                            বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#" data-toggle="modal" data-target="#modal_1">
+                                <span class="playIcon"><i class="fa fa-play"></i></span>
+                                <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                            </a>
+                        </div>
+                        <h4><a href="#" data-toggle="modal" data-target="#modal_1">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ
+                            বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#" data-toggle="modal" data-target="#modal_1">
+                                <span class="playIcon"><i class="fa fa-play"></i></span>
+                                <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                            </a>
+                        </div>
+                        <h4><a href="#" data-toggle="modal" data-target="#modal_1">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ
+                            বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 mb-4 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#" data-toggle="modal" data-target="#modal_1">
+                                <span class="playIcon"><i class="fa fa-play"></i></span>
+                                <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                            </a>
+                        </div>
+                        <h4><a href="#" data-toggle="modal" data-target="#modal_1">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ
+                            বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+
+<div class="newsItemWrap bgLight">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>ছবি <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4">
+                <div class="newsContent overImg">
+                    <a href="./assets/img/img/img_1.jpg" class="contentInner img_popup">
+                        <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                        <div class="newsLargeImg mb-4">
+                            <img src="./assets/img/img/img_1.jpg" alt="img">
+                        </div>
+                        <div class="newsInfo">
+                            <h4>ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</h4>
+                            <br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-12 mt-4 mb-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="newsContent overImg ">
+                            <a href="./assets/img/img/img_2.jfif" class="contentInner img_popup">
+                                <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                <div class="newsLargeImg mb-4">
+                                    <img src="./assets/img/img/img_2.jfif" alt="img">
+                                </div>
+                                <div class="newsInfo">
+                                    <h4>ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</h4>
+                                    <br>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="newsContent overImg">
+                            <a href="./assets/img/img/img_3.jpg" class="contentInner img_popup">
+                                <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                <div class="newsLargeImg mb-4">
+                                    <img src="./assets/img/img/img_3.jpg" alt="img">
+                                </div>
+                                <div class="newsInfo">
+                                    <h4>ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</h4>
+                                    <br>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="newsContent overImg">
+                            <a href="./assets/img/img/img_4.jpg" class="contentInner img_popup">
+                                <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                <div class="newsLargeImg mb-4">
+                                    <img src="./assets/img/img/img_4.jpg" alt="img">
+                                </div>
+                                <div class="newsInfo">
+                                    <h4>ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</h4>
+                                    <br>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<div class="addWrap border-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-4 mb-4">
+                <div class="addImg">
+                    <img src="./assets/img/add/font_page3.jpg" alt="add" class="img-fluid" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--addWrap-->
+
+<div class="albumWrap">
+    <div class="container">
+        <div class="secTop mt-4">
+            <h4><a href="#"> <b>ঠিকানা অ্যালবাম <i class="fa fa-angle-right"></i> </b> </a></h4>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="newsContent overImg">
+                    <a href="./assets/img/img/img_1.jpg" class="contentInner img_popup">
+                        <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                        <div class="newsLargeImg mb-4">
+                            <img src="./assets/img/img/img_1.jpg" alt="img">
+                        </div>
+                        <div class="newsInfo">
+                            <h4> জেফ বেজোস</h4>
+                            <br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="newsContent overImg">
+                    <a href="./assets/img/img/img_1.jpg" class="contentInner img_popup">
+                        <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                        <div class="newsLargeImg mb-4">
+                            <img src="./assets/img/img/img_1.jpg" alt="img">
+                        </div>
+                        <div class="newsInfo">
+                            <h4>ছোট ভাইকে জেফ বেজোস</h4>
+                            <br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="newsContent overImg">
+                    <a href="./assets/img/img/img_1.jpg" class="contentInner img_popup">
+                        <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                        <div class="newsLargeImg mb-4">
+                            <img src="./assets/img/img/img_1.jpg" alt="img">
+                        </div>
+                        <div class="newsInfo">
+                            <h4>ছোট ভাইকে বেজোস</h4>
+                            <br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-12">
+                <div class="newsContent overImg">
+                    <a href="./assets/img/img/img_1.jpg" class="contentInner img_popup">
+                        <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                        <div class="newsLargeImg mb-4">
+                            <img src="./assets/img/img/img_1.jpg" alt="img">
+                        </div>
+                        <div class="newsInfo">
+                            <h4>ছোট ভাইকে নিয়ে </h4>
+                            <br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12">
+                <div class="newsContent overImg">
+                    <a href="./assets/img/img/img_1.jpg" class="contentInner img_popup">
+                        <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                        <div class="newsLargeImg mb-4">
+                            <img src="./assets/img/img/img_1.jpg" alt="img">
+                        </div>
+                        <div class="newsInfo">
+                            <h4>যাচ্ছেন জেফ বেজোস</h4>
+                            <br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12">
+                <div class="newsContent overImg">
+                    <a href="./assets/img/img/img_1.jpg" class="contentInner img_popup">
+                        <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                        <div class="newsLargeImg mb-4">
+                            <img src="./assets/img/img/img_1.jpg" alt="img">
+                        </div>
+                        <div class="newsInfo">
+                            <h4>ছোট জেফ বেজোস</h4>
+                            <br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12">
+                <div class="newsContent overImg">
+                    <a href="./assets/img/img/img_1.jpg" class="contentInner img_popup">
+                        <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                        <div class="newsLargeImg mb-4">
+                            <img src="./assets/img/img/img_1.jpg" alt="img">
+                        </div>
+                        <div class="newsInfo">
+                            <h4>ভাইকে নিয়ে মহাকাশে</h4>
+                            <br>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--<div class="col-12">
+                <div class="more text-center">
+                    <button class="btn btnMoreImg">More</button>
+                </div>
+            </div>-->
+        </div>
+        <hr>
+    </div>
+</div>
+
+
+<div class="newsItemWrap">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="secTop mt-4">
+                    <h4><a href="#"> <b>বিজ্ঞান ও প্রযুক্তি <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="secTop mt-4">
+                    <h4><a href="#"> <b>শিল্প-সাহিত্য ও সংস্কৃতি <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="secTop mt-4">
+                    <h4><a href="#"> <b>বিশ্বচরাচর <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-12 mt-4 mb-4">
+                <div class="secTop mt-4">
+                    <h4><a href="#"> <b>ইমিগ্রেশন <i class="fa fa-angle-right"></i> </b> </a></h4>
+                </div>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="newsLargeImg mb-4">
+                            <a href="#"><img src="./assets/img/news-large/news-large-1.jpg" alt="img"></a>
+                        </div>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<footer class="footer">
+    <div class="footerTop">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-6 col-12">
+                    <p>সংস্করণ</p>
+                    <div class="selectLang">
+                        <div class="selectLangItem">
+                            <input type="radio" name="language" id="item1">
+                            <label for="item1">বাংলা</label>
+                        </div>
+                        <div class="selectLangItem">
+                            <input type="radio" name="language" id="item2">
+                            <label for="item2">English</label>
+                        </div>
+                        <div class="selectLangItem">
+                            <input type="radio" name="language" id="item3">
+                            <label for="item3">উত্তর আমেরিকা</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row align-items-center footerBottom">
+                <div class="col-md-6 col-sm-6 col-12">
+                    <p>
+                        আমাদের সঙ্গে থাকুন
+                    </p>
+                    <div class="footerSocial">
+                        <ul class="socialLink">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-12">
+                    <div class="ourApp text-right">
+                        <p>মোবাইল অ্যাপস ডাউনলোড করুন</p>
+                        <div class="appLink">
+                            <a href="#">
+                                <img src="./assets/img/icon/apple.svg" alt="icon">
+                            </a>
+
+                            <a href="#">
+                                <img src="./assets/img/icon/google.svg" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row align-items-center footerCopyRight">
+                <div class="col-12">
+                    <div class="footerCopyright text-center">
+                        স্বত্ব © ২০২১ প্রথম আলো | সম্পাদক ও প্রকাশক: মতিউর রহমান
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer -->
+
+
+<!-- Modal -->
+<div class="modal fade videoModal" id="modal_1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="youtubeVideo">
+                    <div class="videoInner">
+                        <iframe src="https://www.youtube.com/embed/X8KVxj0AUmw" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="./assets/vendors/magnify-pop/jquery.magnific-popup.min.js"></script>
+<script src="./assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>

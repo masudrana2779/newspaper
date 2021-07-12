@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thikana</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32"
+          href="./assets/img/favicon.png">
+</head>
+<body>
+
+
+<header class="headerWrap" id="headerWrap">
+    <div class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <div class="leftSide">
+                        <div class="barIcon">
+                            <span class="openMenu"><i class="fa fa-bars"></i></span>
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <p>সোমবার, ০৭ জুন ২০২১</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="logoWrap text-center">
+                        <a href="index.html"><img src="./assets/img/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="rightSide">
+                        <div class="rightInner text-right">
+                            <div class="belIcon">
+                                <i class="fa fa-bell-o"></i>
+                                <a href="#" class="btn btn-success">Login</a>
+                            </div>
+                            <div class="selectLangMenu">
+                                সংস্করণ: <span>বাংলা <i class="fa fa-angle-down"></i> </span>
+
+                                <div class="selectLang">
+                                    <div class="selectLangItem">
+                                        <input type="radio" name="language" id="item11">
+                                        <label for="item11">বাংলা</label>
+                                    </div>
+                                    <div class="selectLangItem">
+                                        <input type="radio" name="language" id="item21">
+                                        <label for="item21">English</label>
+                                    </div>
+                                    <div class="selectLangItem">
+                                        <input type="radio" name="language" id="item31">
+                                        <label for="item31">উত্তর আমেরিকা</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainMenuWrap border-top border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>-->
+                        <div class="collapse navbar-collapse mainMenu" id="mainMenu">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="latest.html">সর্বশেষ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="topic.html">বিশেষ সংবাদ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="politics.html">রাজনীতি</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="topic.html">করোনাভাইরাস</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bangladesh.html">বাংলাদেশ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">বিশ্ব</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">বাণিজ্য</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">মতামত</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">খেলা</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">বিনোদন</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">চাকরি</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">লাইফস্টাইল</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--mainMenuWrap-->
+</header>
+<!--header-->
+
+
+<div class="leftSideMenuWrap">
+    <div class="leftMenuContent">
+        <div class="closeMenu">
+            X
+        </div>
+        <ul class="leftMenuList">
+            <li class="nav-item">
+                <a class="nav-link active" href="latest.html">সর্বশেষ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="topic.html">বিশেষ সংবাদ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="politics.html">রাজনীতি</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="topic.html">করোনাভাইরাস</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bangladesh.html">বাংলাদেশ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">বিশ্ব</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">বাণিজ্য</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">মতামত</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">খেলা</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">বিনোদন</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">চাকরি</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">লাইফস্টাইল</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="newsItemWrap">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="secTop mt-4 mb-">
+                    <h1><b> ছবি </b></h1>
+                    <ul class="bradeComb">
+                        <li><a href="#">এক ঝলক</a></li>
+                        <li><a href="#">বাংলাদেশ</a></li>
+                        <li><a href="#">ফ্যাশন</a></li>
+                        <li><a href="#">খেলা</a></li>
+                        <li><a href="#">বিনোদন</a></li>
+                        <li><a href="#">আন্তর্জাতিক</a></li>
+                        <li><a href="#"> বিজ্ঞান ও প্রযুক্তি</a></li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-12">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <a href="./assets/img/news-large/news-large-1.jpg"
+                           class="contentInner img_popup newsLargeImg mb-4">
+                            <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                            <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                        </a>
+                        <h3><a href="#">ত্বকী হত্যার ৯৯ মাস, ঘাতকদের বিচারের দাবিতে আলোক প্রজ্বালন</a></h3>
+                        <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী
+                            হত্যার বিচার
+                            এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                            তদন্তে যখন ত্বকীর
+                            ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <a href="./assets/img/news-large/news-large-1.jpg"
+                           class="contentInner img_popup newsLargeImg mb-4">
+                            <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                            <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                        </a>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <a href="./assets/img/news-large/news-large-1.jpg"
+                           class="contentInner img_popup newsLargeImg mb-4">
+                            <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                            <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                        </a>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9 col-sm-9 col-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <a href="./assets/img/news-large/news-large-1.jpg"
+                           class="contentInner img_popup newsLargeImg mb-4">
+                            <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                            <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                        </a>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <a href="./assets/img/news-large/news-large-1.jpg"
+                           class="contentInner img_popup newsLargeImg mb-4">
+                            <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                            <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                        </a>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12 border-left">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <a href="./assets/img/news-large/news-large-1.jpg"
+                           class="contentInner img_popup newsLargeImg mb-4">
+                            <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                            <img src="./assets/img/news-large/news-large-1.jpg" alt="img">
+                        </a>
+                        <h4><a href="#">ছোট ভাইকে নিয়ে মহাকাশে যাচ্ছেন জেফ বেজোস</a></h4>
+                        <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <hr>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-8 col-12 mt-4 mb-4">
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="./assets/img/news/news_thumb_5.jpg"
+                                   class="img_popup">
+                                    <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                    <img src="./assets/img/news/news_thumb_5.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="./assets/img/news/news_thumb_5.jpg"
+                                   class="img_popup">
+                                    <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                    <img src="./assets/img/news/news_thumb_5.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="./assets/img/news/news_thumb_5.jpg"
+                                   class="img_popup">
+                                    <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                    <img src="./assets/img/news/news_thumb_5.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="./assets/img/news/news_thumb_5.jpg"
+                                   class="img_popup">
+                                    <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                    <img src="./assets/img/news/news_thumb_5.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="./assets/img/news/news_thumb_5.jpg"
+                                   class="img_popup">
+                                    <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                    <img src="./assets/img/news/news_thumb_5.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="./assets/img/news/news_thumb_5.jpg"
+                                   class="img_popup">
+                                    <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                    <img src="./assets/img/news/news_thumb_5.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="newsContent">
+                    <div class="contentInner">
+                        <div class="d-flex">
+                            <div class="newsImgL mr-4">
+                                <a href="./assets/img/news/news_thumb_5.jpg"
+                                   class="img_popup">
+                                    <span class="playIcon"><i class="fa fa-picture-o"></i></span>
+                                    <img src="./assets/img/news/news_thumb_5.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div>
+                                <h4><a href="#">সুযোগ হাতছাড়ার আক্ষেপ জেমি ডের</a></h4>
+                                <p><a href="#">অনুষ্ঠানে ত্বকীর বাবা রফিউর রাব্বি বলেন, আট বছর পেরিয়ে গেলেও ত্বকী হত্যার
+                                    বিচার এখনো শুরু হয়নি। এ দায় যতটা না বিচারব্যবস্থার, তার চেয়ে বেশি সরকারের। কারণ,
+                                    তদন্তে যখন ত্বকীর ঘাতক চিহ্নিত হলো, তখনি </a></p>
+                                <p class="ago"><small>১ ঘণ্টা আগে</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="loadMore text-center">
+                    <button class="btn">আরও</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
+<!--newsItemWrap-->
+
+<footer class="footer">
+    <div class="footerTop">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-6 col-12">
+                    <p>সংস্করণ</p>
+                    <div class="selectLang">
+                        <div class="selectLangItem">
+                            <input type="radio" name="language" id="item1">
+                            <label for="item1">বাংলা</label>
+                        </div>
+                        <div class="selectLangItem">
+                            <input type="radio" name="language" id="item2">
+                            <label for="item2">English</label>
+                        </div>
+                        <div class="selectLangItem">
+                            <input type="radio" name="language" id="item3">
+                            <label for="item3">উত্তর আমেরিকা</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 border-left">
+                    <div class="footerMenu">
+                        <p><a href="#">বিশেষ সংখ্যা</a></p>
+                        <p><a href="#">গোলটেবিল</a></p>
+                        <p><a href="#">অন্য আলো</a></p>
+                        <p><a href="#">কিশোর আলো</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row align-items-center footerBottom">
+                <div class="col-md-6 col-sm-6 col-12">
+                    <p>
+                        আমাদের সঙ্গে থাকুন
+                    </p>
+                    <div class="footerSocial">
+                        <ul class="socialLink">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-12">
+                    <div class="ourApp text-right">
+                        <p>মোবাইল অ্যাপস ডাউনলোড করুন</p>
+                        <div class="appLink">
+                            <a href="#">
+                                <img src="./assets/img/icon/apple.svg" alt="icon">
+                            </a>
+
+                            <a href="#">
+                                <img src="./assets/img/icon/google.svg" alt="icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row align-items-center footerCopyRight">
+                <div class="col-12">
+                    <div class="footerCopyright text-center">
+                        স্বত্ব © ২০২১ প্রথম আলো | সম্পাদক ও প্রকাশক: মতিউর রহমান
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="./assets/vendors/magnify-pop/jquery.magnific-popup.min.js"></script>
+<script src="./assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>

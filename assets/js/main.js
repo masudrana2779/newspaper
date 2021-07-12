@@ -62,6 +62,11 @@ $(function () {
             $('body').removeClass('openLeftSideMenu');
         });
 
+        $('.closeAdd').on('click', function () {
+            $('.popupAddWrap').removeClass('openPopupAddWrap');
+            $('body').removeClass('openLeftSideMenu');
+        });
+
 
         function popupGallery() {
             if ($(".img_popup").length) {

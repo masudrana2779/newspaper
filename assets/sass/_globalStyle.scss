@@ -251,20 +251,21 @@ p {
 .newsContent {
   position: relative;
 
-  &.overImg {
-    .newsLargeImg {
-      &:before {
-        background-image: linear-gradient(
-                        180deg, transparent, transparent 33%, #000);
-        content: " ";
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        z-index: 1;
-      }
+  .newsLargeImg {
+    &:before {
+      background-image: linear-gradient(
+                      180deg, transparent, transparent 33%, #000);
+      content: " ";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
     }
+  }
+
+  &.overImg {
 
     .newsInfo {
       position: absolute;
@@ -1198,8 +1199,71 @@ p {
   max-width: 650px;
   width: 100%;
   margin: 0 auto;
+
   p {
     font-size: 18px;
     line-height: 1.67;
+  }
+}
+
+.openAddPopup {
+  overflow: hidden;
+}
+
+.popupAddWrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1111;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.openPopupAddWrap {
+    opacity: 1;
+    visibility: visible;
+
+    .popupAddContent {
+      transform: translateX(0);
+    }
+  }
+
+  .popupAddContent {
+    position: relative;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+
+
+    .closeAdd {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      width: 30px;
+      height: 30px;
+      background: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .popupAdd {
+      .popupAddInner {
+        a {
+          img {
+
+          }
+        }
+      }
+    }
   }
 }

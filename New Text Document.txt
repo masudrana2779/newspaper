@@ -2,9 +2,9 @@
 2. Search box  -----  ok
 3. Vote can not selected   -----  ok
 4. Album Page
-5. ছবি page
-6. Popup Ads
-7. video page
+5. ছবি page    -----  ok
+6. Popup Ads  -----  ok
+7. video page   -----  ok
 
 
 

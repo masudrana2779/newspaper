@@ -1365,6 +1365,10 @@ p {
       background-position: center center;
       background-attachment: scroll;
       background-size: cover;
+      transition: all 0.3s;
+      &:hover {
+        background-size: 105% ;
+      }
 
       img {
         opacity: 0;
@@ -1378,6 +1382,10 @@ p {
         background-position: center center;
         background-attachment: scroll;
         background-size: cover;
+        transition: all 0.3s;
+        &:hover {
+          background-size: 105% ;
+        }
       }
 
       img {
@@ -1393,6 +1401,10 @@ p {
           background-position: center center;
           background-attachment: scroll;
           background-size: cover;
+          transition: all 0.3s;
+          &:hover {
+            background-size: 105% ;
+          }
         }
       }
     }
@@ -1406,6 +1418,10 @@ p {
       background-position: center center;
       background-attachment: scroll;
       background-size: cover;
+      transition: all 0.3s;
+      &:hover {
+        background-size: 105% ;
+      }
       img {
         opacity: 0;
       }

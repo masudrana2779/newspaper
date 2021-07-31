@@ -998,7 +998,12 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .videoWrap .newsContent .newsLargeImg:hover {
+    background-size: 105%; }
   .videoWrap .newsContent .newsLargeImg img {
     opacity: 0; }
 
@@ -1006,7 +1011,12 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .videoWrap .newsContent .newsImgL a:hover {
+    background-size: 105%; }
 
 .videoWrap .newsContent .newsImgL img {
   opacity: 0; }
@@ -1015,13 +1025,23 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .videoWrap .newsContent .mbRightSiteImg .newsLargeImg a:hover {
+    background-size: 105%; }
 
 .photoAlbumWrap .newsContent .newsLargeImg {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .photoAlbumWrap .newsContent .newsLargeImg:hover {
+    background-size: 105%; }
   .photoAlbumWrap .newsContent .newsLargeImg img {
     opacity: 0; }
 

@@ -1356,3 +1356,45 @@ p {
     }
   }
 }
+
+
+.videoWrap {
+  .newsContent {
+    .newsLargeImg {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: scroll;
+      background-size: cover;
+
+      img {
+        opacity: 0;
+      }
+    }
+
+    .newsImgL {
+
+      a {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        background-size: cover;
+      }
+
+      img {
+        opacity: 0;
+      }
+    }
+
+    .mbRightSiteImg {
+
+      .newsLargeImg {
+        a {
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-attachment: scroll;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}

@@ -994,6 +994,29 @@ p {
       cursor: pointer;
       font-weight: 700; }
 
+.videoWrap .newsContent .newsLargeImg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover; }
+  .videoWrap .newsContent .newsLargeImg img {
+    opacity: 0; }
+
+.videoWrap .newsContent .newsImgL a {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover; }
+
+.videoWrap .newsContent .newsImgL img {
+  opacity: 0; }
+
+.videoWrap .newsContent .mbRightSiteImg .newsLargeImg a {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover; }
+
 .headerWrap {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;

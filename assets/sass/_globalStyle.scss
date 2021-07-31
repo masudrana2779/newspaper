@@ -1398,3 +1398,17 @@ p {
     }
   }
 }
+
+.photoAlbumWrap {
+  .newsContent {
+    .newsLargeImg {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: scroll;
+      background-size: cover;
+      img {
+        opacity: 0;
+      }
+    }
+  }
+}

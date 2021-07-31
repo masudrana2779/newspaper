@@ -1017,6 +1017,14 @@ p {
   background-attachment: scroll;
   background-size: cover; }
 
+.photoAlbumWrap .newsContent .newsLargeImg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover; }
+  .photoAlbumWrap .newsContent .newsLargeImg img {
+    opacity: 0; }
+
 .headerWrap {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;

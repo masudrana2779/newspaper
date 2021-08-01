@@ -213,4 +213,42 @@
   .footer .footerLogo a img {
     max-width: 100px;
   }
+  .videoWrap .newsContent.overImg .newsInfo {
+    position: absolute;
+    color: #fff;
+    padding: 10px 20px 5px;
+  }
+  .photoAlbumWrap .newsContent.overImg .newsInfo {
+    position: absolute;
+    color: #fff;
+    padding: 10px 20px 5px;
+  }
+
+  .photoAlbumWrap .newsContent {
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+
+  .photoAlbumWrap .newsContent.overImg .newsInfo h4 {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 28px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin: 0;
+    font-size: 18px;
+  }
+  .photoAlbumWrap .row {
+    margin: 0 -2px;
+  }
+  .photoAlbumWrap .col-12,
+  .photoAlbumWrap .col-6 {
+    padding: 0 2px;
+  }
+  .photoAlbumWrap .newsContent .newsLargeImg {
+    margin: 0 0 3px!important;
+  }
 }
